@@ -16,14 +16,14 @@
   
 }
 .container-menu .container-button{
-  width: 400px;
+  width: 340px;
   margin: auto auto;
   background-color: #bd4520
 }
 
 
 .container-menu .container-button a{
-  margin: 0 20px;
+  margin: 0 13px;
   background-color: #bd4520;
   text-decoration: none;
   color: #efefef;
