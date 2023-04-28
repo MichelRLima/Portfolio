@@ -36,14 +36,16 @@ function App() {
     <footer>
     
       <div className="containerFooter">
+        
         <div className="icones">
-      <AiFillHtml5 size={32} color="#f59519" />
-      <IoLogoCss3 size={32} color="#428ad6" />
-      <IoLogoJavascript size={32} color="#d5f060"/>
-      <DiJqueryLogo size={32} color="#0769ad" />
-      <DiReact size={32} color="#0769ad"/>
-      <DiPython size={32} color="#3776ab"/>
-      <SiCsharp size={32} color="#68217a"/>
+        <h4>Tecnologias</h4>
+      <AiFillHtml5 title="HTML5" size={32} color="#f59519" />
+      <IoLogoCss3 title="CSS3" size={32} color="#428ad6" />
+      <IoLogoJavascript title="JavaScript" size={32} color="#d5f060"/>
+      <DiJqueryLogo title="jQuery" size={32} color="#0769ad" />
+      <DiReact title="React" size={32} color="#0769ad"/>
+      <DiPython title="Python" size={32} color="#3776ab"/>
+      <SiCsharp title="C#"size={32} color="#68217a"/>
       </div>
       </div>
     </footer>
