@@ -9,20 +9,39 @@ import { AiFillHtml5 } from 'react-icons/ai';
 import { IoLogoCss3, IoLogoJavascript } from 'react-icons/io5';
 import { DiJqueryLogo, DiReact, DiPython } from 'react-icons/di';
 import { SiCsharp } from 'react-icons/si';
-
+import {FaBars} from 'react-icons/fa'
+import { useState } from "react";
 function App() {
+  const [showDiv, setShowDiv] = useState(false);
+
   return (
     <>
     
     <BrowserRouter>
     <div className="container-menu">
+
+      
+
       <div className="container-button">
           <Link to="/">Sobre</ Link>
           <Link to="/projetos">Projetos</ Link> 
           <Link to="/cv">CV</ Link>
           <Link to="/contato">Contato</ Link>
       </div>
+      
     </div>
+
+    <div className="containerMobile">
+      <FaBars onClick={() => setShowDiv(!showDiv)} size={32} />
+    
+    </div>
+    <div className="menuMobile" style={{display: showDiv ? 'block' : 'none', transition: 'opacity , 2s'}}>
+          <Link onClick={() => setShowDiv(!showDiv)} to="/">Sobre</ Link>
+          <Link onClick={() => setShowDiv(!showDiv)} to="/projetos">Projetos</ Link> 
+          <Link onClick={() => setShowDiv(!showDiv)} to="/cv">CV</ Link>
+          <Link onClick={() => setShowDiv(!showDiv)} to="/contato">Contato</ Link>
+    </div>
+
     <Routes>
         
 

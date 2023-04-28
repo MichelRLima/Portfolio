@@ -40,8 +40,9 @@ return(
     Acredito que cada projeto é uma oportunidade de aprendizado e evolução, e estou animado 
     para continuar crescendo e me desenvolvendo como profissional de desenvolvimento web. 
     Agradeço pela visita e espero ter a oportunidade de colaborar com você em projetos futuros.
-    <div className={styles.containerPerfil}></div>
+    
     </p>
+    <div className={styles.containerPerfil}></div>
     </div>
     
     </>
