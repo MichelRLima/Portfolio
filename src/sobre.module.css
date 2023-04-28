@@ -1,0 +1,44 @@
+.containerTitulo{
+    width: 100%;
+    height: 20px;
+
+    
+    
+}
+
+.titulo{
+    width: 300px;
+    color: rgb(29, 36, 88);
+    margin: 40px auto;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.containerTexto{
+    width: 90%;
+    margin:100px auto 200px;
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    
+}
+
+.containerTexto p{
+    text-indent: 20px;
+    margin: 20px auto;
+    font-family: 'Open Sans Light', sans-serif;
+    font-weight: 300;
+    
+    
+}
+
+.containerPerfil{
+  margin: 25px auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%; /* faz com que o elemento tenha um formato de círculo */
+  background-image: url('perfil.jpg');
+  background-size: cover; /* faz com que a imagem se ajuste ao tamanho do elemento */
+  background-position: center; /* faz com que a imagem fique centralizada */
+}
