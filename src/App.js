@@ -36,7 +36,7 @@ function App() {
     <footer>
     
       <div className="containerFooter">
-        
+      
         <div className="icones">
         <h4>Tecnologias</h4>
       <AiFillHtml5 title="HTML5" size={32} color="#f59519" />

@@ -45,6 +45,7 @@
   background-color: #bd4520;
   position: fixed;
   bottom: 0;
+  text-align: center;
 }
 
 .icones{
@@ -56,7 +57,9 @@
   
 }
 .icones h4{
+  margin-top: 30px;
   background-color: #bd4520;
+  color: #efefef;
 }
 .icones svg{
   margin: 25px 10px;
