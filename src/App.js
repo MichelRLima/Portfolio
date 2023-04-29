@@ -1,10 +1,10 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css';
 import Sobre from "./Sobre";
-import Projetos from "./Projetos";
-import CV from "./CV";
+import Projetos from "./componentes/Projetos";
+import CV from "./componentes/CV";
 import { Link } from "react-router-dom";
-import Contato from "./Contato";
+import Contato from "./componentes/Contato";
 import { AiFillHtml5 } from 'react-icons/ai';
 import { IoLogoCss3, IoLogoJavascript } from 'react-icons/io5';
 import { DiJqueryLogo, DiReact, DiPython } from 'react-icons/di';
@@ -24,9 +24,9 @@ function App() {
 
       <div className="container-button">
           <Link to="/">Sobre</ Link>
-          <Link to="/projetos">Projetos</ Link> 
-          <Link to="/cv">CV</ Link>
-          <Link to="/contato">Contato</ Link>
+          <Link to="componentes/projetos">Projetos</ Link> 
+          <Link to="componentes/cv">CV</ Link>
+          <Link to="componentes/contato">Contato</ Link>
       </div>
       
     </div>
@@ -37,18 +37,18 @@ function App() {
     </div>
     <div className="menuMobile" style={{display: showDiv ? 'block' : 'none', transition: 'opacity , 2s'}}>
           <Link onClick={() => setShowDiv(!showDiv)} to="/">Sobre</ Link>
-          <Link onClick={() => setShowDiv(!showDiv)} to="/projetos">Projetos</ Link> 
-          <Link onClick={() => setShowDiv(!showDiv)} to="/cv">CV</ Link>
-          <Link onClick={() => setShowDiv(!showDiv)} to="/contato">Contato</ Link>
+          <Link onClick={() => setShowDiv(!showDiv)} to="componentes/projetos">Projetos</ Link> 
+          <Link onClick={() => setShowDiv(!showDiv)} to="componentes/cv">CV</ Link>
+          <Link onClick={() => setShowDiv(!showDiv)}  to="componentes/contato">Contato</ Link>
     </div>
 
     <Routes>
         
 
         <Route path="/" exact element={<Sobre />} />
-        <Route path="projetos" element={<Projetos />} />
-        <Route path="cv" element={<CV />} />
-        <Route path="contato" element={<Contato />} />
+        <Route path="componentes/projetos" element={<Projetos />} />
+        <Route path="componentes/cv" element={<CV />} />
+        <Route path="componentes/contato" element={<Contato />} />
         
      
     </Routes>
