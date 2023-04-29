@@ -5,7 +5,16 @@ import Button from 'react-bootstrap/Button';
 function Projetos (){
     const jdvLink = 'https://game-jogodavelha.netlify.app';
     const jdvrep =  'https://github.com/MichelRLima/Jogo-da-velha'
+    const bcLink = 'https://search-mycep.netlify.app';
+    const bcrep =  'https://github.com/MichelRLima/BuscarCep'
+    const tdLink = 'https://react-tasktodolist.netlify.app';
+    const tdrep =  'https://github.com/MichelRLima/TodoList'
+    const rtLink = 'https://restaurante-hungrychef.netlify.app';
+    const rtrep =  'https://github.com/MichelRLima/Cardapio'
     const [jdv, setJdv] = useState(false);
+    const [bc, setBc] = useState(false);
+    const [td, setTd] = useState(false);
+    const [rt, setRt] = useState(false);
     
     console.log(jdv)
     return(
@@ -19,9 +28,8 @@ function Projetos (){
        
             <div className={styles.projeto}>
                 <h3>Jogo da Velha</h3>
-                <div onClick={() => setJdv(!jdv)} className={styles.jogoDaVelha}>
-                    
-                </div>
+                <div onClick={() => setJdv(!jdv)} className={styles.jogoDaVelha}></div>
+
                 {jdv && (
                     <div className={styles.abajdv}>
                    
@@ -43,7 +51,20 @@ function Projetos (){
 
             <div className={styles.projeto}>
                 <h3>Buscar CEP</h3>
-                <div className={styles.buscarCep}></div>
+                <div onClick={() => setBc(!bc)} className={styles.buscarCep}></div>
+                {bc && (
+                    <div className={styles.ababc}>
+                   
+                    <div onClick={() => setBc(!bc)} className={styles.closeBC}><FaSignOutAlt size={30}/></div>
+                    <div className={styles.containerDescricao}>
+                        <h3>Buscar CEP</h3>
+                        <p>React</p>
+                        <button><Button target="_blank" href={bcLink} variant="success">Site</Button></button>
+                        <button><Button target="_blank" href={bcrep} variant="secondary">Repositório</Button></button>
+                        
+                    </div>
+                </div>
+                )}
 
             </div>
 
@@ -52,16 +73,43 @@ function Projetos (){
             <div className={styles.projeto}>
 
             <h3>Todo List</h3>
-            <div className={styles.todoList}></div>
+            <div onClick={() => setTd(!td)} className={styles.todoList}></div>
+            
+            {td && (
+                    <div className={styles.abatd}>
+                   
+                    <div onClick={() => setTd(!td)} className={styles.closeTD}><FaSignOutAlt size={30}/></div>
+                    <div className={styles.containerDescricao}>
+                        <h3>Todo List</h3>
+                        <p>React</p>
+                        <button><Button target="_blank" href={tdLink} variant="success">Site</Button></button>
+                        <button><Button target="_blank" href={tdrep} variant="secondary">Repositório</Button></button>
+                        
+                    </div>
+                </div>
+                )}
+
 
             </div>
 
             <br/>
 
             <div className={styles.projeto}>
-            <h3>Cardápio / restaurante</h3>
-            <div className={styles.restaurante}></div>
-
+            <h3>Cardápio / Restaurante</h3>
+            <div onClick={() => setRt(!rt)} className={styles.restaurante}></div>
+            {rt && (
+                    <div className={styles.abart}>
+                   
+                    <div onClick={() => setRt(!rt)} className={styles.closeRT}><FaSignOutAlt size={30}/></div>
+                    <div className={styles.containerDescricao}>
+                        <h3>Cardápio / Restaurante</h3>
+                        <p>React</p>
+                        <button><Button target="_blank" href={rtLink} variant="success">Site</Button></button>
+                        <button><Button target="_blank" href={rtrep} variant="secondary">Repositório</Button></button>
+                        
+                    </div>
+                </div>
+                )}
 
             </div>
 
