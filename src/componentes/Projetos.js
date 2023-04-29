@@ -16,6 +16,7 @@ function Projetos (){
                 
             
             </div>
+            <br/>
      
 
             <div className={styles.projeto}>
@@ -24,13 +25,21 @@ function Projetos (){
 
             </div>
 
+            <br/>
+
             <div className={styles.projeto}>
-            <h3>Projeto</h3>
+
+            <h3>Todo List</h3>
+            <div className={styles.todoList}></div>
 
             </div>
 
+            <br/>
+            
             <div className={styles.projeto}>
-            <h3>Projeto</h3>
+            <h3>Cardápio / restaurante</h3>
+            <div className={styles.restaurante}></div>
+
 
             </div>
 
