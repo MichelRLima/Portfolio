@@ -25,7 +25,7 @@ function App() {
       <div className="container-button">
           <Link to="/">Sobre</ Link>
           <Link to="componentes/projetos">Projetos</ Link> 
-          <Link to="componentes/cv">CV</ Link>
+          <Link to="componentes/cv">Currículo</ Link>
           <Link to="componentes/contato">Contato</ Link>
       </div>
       
@@ -38,7 +38,7 @@ function App() {
     <div className="menuMobile" style={{display: showDiv ? 'block' : 'none', transition: 'opacity , 2s'}}>
           <Link onClick={() => setShowDiv(!showDiv)} to="/">Sobre</ Link>
           <Link onClick={() => setShowDiv(!showDiv)} to="componentes/projetos">Projetos</ Link> 
-          <Link onClick={() => setShowDiv(!showDiv)} to="componentes/cv">CV</ Link>
+          <Link onClick={() => setShowDiv(!showDiv)} to="componentes/cv">Currículo</ Link>
           <Link onClick={() => setShowDiv(!showDiv)}  to="componentes/contato">Contato</ Link>
     </div>
 

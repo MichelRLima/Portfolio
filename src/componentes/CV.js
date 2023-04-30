@@ -3,7 +3,7 @@ function CV (){
 
     return (
         <>
-        <h1>CV</h1>
+        <h1>currículo</h1>
         </>
     )
 }
