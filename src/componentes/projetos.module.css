@@ -8,7 +8,7 @@
 
 .containerProjetos{
     width: 90%;
-    display: block;
+    display: flex;
     border: 1px solid #bd4520;
     flex-wrap: wrap;
     margin:100px auto 200px;
@@ -42,9 +42,12 @@ background-size: contain;
 background-repeat: no-repeat;
 cursor: pointer;
 
+
 }
 
+
 .abajdv{
+    border: 1px solid #bd4520;
     width: 500px;
     height: 300px;
     background-color: #efefef;
@@ -57,8 +60,13 @@ cursor: pointer;
     -moz-box-shadow: 9px 11px 5px -3px rgba(0,0,0,0.75);
     box-shadow: 9px 11px 5px -3px rgba(0,0,0,0.75);
     border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+    z-index: 9999; /* define um valor alto de z-index para a div */
    
 }
+
+
+
 .closeJDV{
     width: 30px;
     height: 30px;
@@ -93,6 +101,7 @@ cursor: pointer;
     
     }
     .ababc{
+        border: 1px solid #bd4520;
         width: 500px;
         height: 300px;
         background-color: #efefef;
@@ -105,6 +114,7 @@ cursor: pointer;
         -moz-box-shadow: 9px 11px 5px -3px rgba(0,0,0,0.75);
         box-shadow: 9px 11px 5px -3px rgba(0,0,0,0.75);
         border-radius: 5px;
+        z-index: 9999; /* define um valor alto de z-index para a div */
        
     }
     .closeBC{
@@ -137,6 +147,7 @@ cursor: pointer;
     cursor: pointer;
 }
 .abatd{
+    border: 1px solid #bd4520;
     width: 500px;
     height: 300px;
     background-color: #efefef;
@@ -149,6 +160,7 @@ cursor: pointer;
     -moz-box-shadow: 9px 11px 5px -3px rgba(0,0,0,0.75);
     box-shadow: 9px 11px 5px -3px rgba(0,0,0,0.75);
     border-radius: 5px;
+    z-index: 9999; /* define um valor alto de z-index para a div */
 }
 
 .closeTD{
@@ -183,6 +195,7 @@ cursor: pointer;
 }
 
 .abart{
+    border: 1px solid #bd4520;
     width: 500px;
     height: 300px;
     background-color: #efefef;
@@ -195,6 +208,7 @@ cursor: pointer;
     -moz-box-shadow: 9px 11px 5px -3px rgba(0,0,0,0.75);
     box-shadow: 9px 11px 5px -3px rgba(0,0,0,0.75);
     border-radius: 5px;
+    z-index: 9999; /* define um valor alto de z-index para a div */
 }
 
 .closeRT{
@@ -229,7 +243,25 @@ cursor: pointer;
     border: none;
 }
 
+/*efeito para aumentar a tela quando passar o mouse por cima*/
+.jogoDaVelha, .buscarCep, .todoList, .restaurante{
+    transition: transform 0.3s ease-in-out;
+}
 
+.jogoDaVelha:hover{
+    transform: scale(1.2);
+}
+
+.buscarCep:hover{
+    transform: scale(1.2);
+}
+
+.todoList:hover{
+    transform: scale(1.2);
+}
+.restaurante:hover{
+    transform: scale(1.2);
+}
 
 
 @media screen and (max-width: 768px){
@@ -245,10 +277,10 @@ cursor: pointer;
         height: 150px;
     }
     .abajdv{
-        width: 250px;
+        width: 100%;
         height: 260px;
         margin-top: -125px; /* metade da altura */
-        margin-left: -125px; /* metade da largura */
+        margin-left: -50%; /* metade da largura */
     }
 
 
@@ -258,10 +290,10 @@ cursor: pointer;
         height: 150px;
     }
     .ababc{
-        width: 250px;
+        width: 100%;
         height: 260px;
         margin-top: -125px; /* metade da altura */
-        margin-left: -125px; /* metade da largura */
+        margin-left: -50%; /* metade da largura */
     }
 
     .todoList{
@@ -269,10 +301,10 @@ cursor: pointer;
         height: 150px;
     }
     .abatd{
-        width: 250px;
+        width: 100%;
         height: 260px;
         margin-top: -125px; /* metade da altura */
-        margin-left: -125px; /* metade da largura */
+        margin-left: -50%; /* metade da largura */
     }
 
     .restaurante{
@@ -280,10 +312,10 @@ cursor: pointer;
         height: 150px;
     }
     .abart{
-        width: 250px;
+        width: 100%;
         height: 260px;
         margin-top: -125px; /* metade da altura */
-        margin-left: -125px; /* metade da largura */
+        margin-left: -50%; /* metade da largura */
     }
    
   }
@@ -305,6 +337,7 @@ cursor: pointer;
         height: 200px;
         margin-top: -100px; /* metade da altura */
         margin-left: -200px; /* metade da largura */
+
     }
 
     .ababc{
@@ -340,4 +373,9 @@ cursor: pointer;
    
   }
 
+  @media screen and (max-width: 1600px){
+    .containerProjetos{
+        display: block;
+    }
+  }
 

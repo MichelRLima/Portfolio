@@ -2,6 +2,8 @@ import styles from './projetos.module.css'
 import { useState } from "react";
 import { FaSignOutAlt } from 'react-icons/fa';
 import Button from 'react-bootstrap/Button';
+
+
 function Projetos (){
     const jdvLink = 'https://game-jogodavelha.netlify.app';
     const jdvrep =  'https://github.com/MichelRLima/Jogo-da-velha'
@@ -16,7 +18,7 @@ function Projetos (){
     const [td, setTd] = useState(false);
     const [rt, setRt] = useState(false);
     
-    console.log(jdv)
+    
     return(
         <>
        

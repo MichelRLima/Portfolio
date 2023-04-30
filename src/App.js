@@ -11,6 +11,7 @@ import { DiJqueryLogo, DiReact, DiPython } from 'react-icons/di';
 import { SiCsharp } from 'react-icons/si';
 import {FaBars} from 'react-icons/fa'
 import { useState } from "react";
+
 function App() {
   const [showDiv, setShowDiv] = useState(false);
 
@@ -19,13 +20,14 @@ function App() {
     
     <BrowserRouter>
     <div className="container-menu">
+    <div className="logo">
 
+    </div>
       
 
       <div className="container-button">
           <Link to="/">Sobre</ Link>
           <Link to="componentes/projetos">Projetos</ Link> 
-         
           <Link to="componentes/contato">Contato</ Link>
       </div>
       
