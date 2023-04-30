@@ -1,8 +1,8 @@
 import styles from './cv.module.css'
 import { AiOutlineCloudDownload } from 'react-icons/ai';
 function CV (){
-    const fileUrl = "./arquivos/teste.txt";
-    const fileName = "teste.txt";
+    const fileUrl = 'teste.txt';
+    const fileName = 'teste.txt';
 
     return (
         <>
@@ -12,7 +12,7 @@ function CV (){
         
         <div className={styles.containerDown}>
         
-        <a  href={fileUrl} download={fileName} className={styles.down}><AiOutlineCloudDownload size={90}/></a>
+        <a  href="michel.pdf" download className={styles.down}>teste</a>
         <p>Download</p>
         </div>
        

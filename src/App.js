@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css';
 import Sobre from "./Sobre";
 import Projetos from "./componentes/Projetos";
-import CV from "./componentes/CV";
+
 import { Link } from "react-router-dom";
 import Contato from "./componentes/Contato";
 import { AiFillHtml5 } from 'react-icons/ai';
@@ -25,7 +25,7 @@ function App() {
       <div className="container-button">
           <Link to="/">Sobre</ Link>
           <Link to="componentes/projetos">Projetos</ Link> 
-          <Link to="componentes/cv">Currículo</ Link>
+         
           <Link to="componentes/contato">Contato</ Link>
       </div>
       
@@ -38,7 +38,7 @@ function App() {
     <div className="menuMobile" style={{display: showDiv ? 'block' : 'none', transition: 'opacity , 2s'}}>
           <Link onClick={() => setShowDiv(!showDiv)} to="/">Sobre</ Link>
           <Link onClick={() => setShowDiv(!showDiv)} to="componentes/projetos">Projetos</ Link> 
-          <Link onClick={() => setShowDiv(!showDiv)} to="componentes/cv">Currículo</ Link>
+         
           <Link onClick={() => setShowDiv(!showDiv)}  to="componentes/contato">Contato</ Link>
     </div>
 
@@ -47,7 +47,7 @@ function App() {
 
         <Route path="/" exact element={<Sobre />} />
         <Route path="componentes/projetos" element={<Projetos />} />
-        <Route path="componentes/cv" element={<CV />} />
+      
         <Route path="componentes/contato" element={<Contato />} />
         
      
