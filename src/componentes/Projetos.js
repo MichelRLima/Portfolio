@@ -33,9 +33,9 @@ function Projetos (){
                 <div onClick={() => setJdv(!jdv)} className={styles.jogoDaVelha}></div>
 
                 {jdv && (
-                    <div className={styles.abajdv}>
+                    <div className={styles.aba}>
                    
-                    <div onClick={() => setJdv(!jdv)} className={styles.closeJDV}><FaSignOutAlt size={30}/></div>
+                    <div onClick={() => setJdv(!jdv)} className={styles.close}><FaSignOutAlt size={30}/></div>
                     <div className={styles.containerDescricao}>
                         <h3>Jogo da velha</h3>
                         <p>HTML5 | CSS3 | jQuery</p>
@@ -55,9 +55,9 @@ function Projetos (){
                 <h3>Buscar CEP</h3>
                 <div onClick={() => setBc(!bc)} className={styles.buscarCep}></div>
                 {bc && (
-                    <div className={styles.ababc}>
+                    <div className={styles.aba}>
                    
-                    <div onClick={() => setBc(!bc)} className={styles.closeBC}><FaSignOutAlt size={30}/></div>
+                    <div onClick={() => setBc(!bc)} className={styles.close}><FaSignOutAlt size={30}/></div>
                     <div className={styles.containerDescricao}>
                         <h3>Buscar CEP</h3>
                         <p>React</p>
@@ -78,9 +78,9 @@ function Projetos (){
             <div onClick={() => setTd(!td)} className={styles.todoList}></div>
             
             {td && (
-                    <div className={styles.abatd}>
+                    <div className={styles.aba}>
                    
-                    <div onClick={() => setTd(!td)} className={styles.closeTD}><FaSignOutAlt size={30}/></div>
+                    <div onClick={() => setTd(!td)} className={styles.close}><FaSignOutAlt size={30}/></div>
                     <div className={styles.containerDescricao}>
                         <h3>Todo List</h3>
                         <p>React</p>
@@ -100,9 +100,9 @@ function Projetos (){
             <h3>Cardápio / Restaurante</h3>
             <div onClick={() => setRt(!rt)} className={styles.restaurante}></div>
             {rt && (
-                    <div className={styles.abart}>
+                    <div className={styles.aba}>
                    
-                    <div onClick={() => setRt(!rt)} className={styles.closeRT}><FaSignOutAlt size={30}/></div>
+                    <div onClick={() => setRt(!rt)} className={styles.close}><FaSignOutAlt size={30}/></div>
                     <div className={styles.containerDescricao}>
                         <h3>Cardápio / Restaurante</h3>
                         <p>React</p>

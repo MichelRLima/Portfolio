@@ -46,7 +46,7 @@ cursor: pointer;
 }
 
 
-.abajdv{
+.aba{
     border: 1px solid #bd4520;
     width: 500px;
     height: 300px;
@@ -60,14 +60,13 @@ cursor: pointer;
     -moz-box-shadow: 9px 11px 5px -3px rgba(0,0,0,0.75);
     box-shadow: 9px 11px 5px -3px rgba(0,0,0,0.75);
     border-radius: 5px;
-    transition: transform 0.3s ease-in-out;
+ 
     z-index: 9999; /* define um valor alto de z-index para a div */
    
 }
 
 
-
-.closeJDV{
+.close{
     width: 30px;
     height: 30px;
     margin-left: auto;
@@ -75,7 +74,7 @@ cursor: pointer;
     border-radius: 5px;
 }
 
-.closeJDV svg{
+.close svg{
     cursor: pointer;
     background-color: #efefef;
     border-radius: 5px;
@@ -83,7 +82,7 @@ cursor: pointer;
     
 }
 
-.abajdv h3{
+.aba h3{
     border-radius: 10px;
 }
 
@@ -100,41 +99,8 @@ cursor: pointer;
     cursor: pointer;
     
     }
-    .ababc{
-        border: 1px solid #bd4520;
-        width: 500px;
-        height: 300px;
-        background-color: #efefef;
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        margin-top: -150px; /* metade da altura */
-        margin-left: -250px; /* metade da largura */
-        -webkit-box-shadow: 9px 11px 5px -3px rgba(0,0,0,0.75);
-        -moz-box-shadow: 9px 11px 5px -3px rgba(0,0,0,0.75);
-        box-shadow: 9px 11px 5px -3px rgba(0,0,0,0.75);
-        border-radius: 5px;
-        z-index: 9999; /* define um valor alto de z-index para a div */
-       
-    }
-    .closeBC{
-        width: 30px;
-        height: 30px;
-        margin-left: auto;
-        margin-bottom: 15px;
-        border-radius: 5px;
-    }
-    .closeBC svg{
-        cursor: pointer;
-        background-color: #efefef;
-        border-radius: 5px;
-        
-        
-    }
+   
 
-    .ababc h3{
-        border-radius: 10px;
-    }
 /*FINAL BUSCAR CEP*/
 /* iNICIO ESTILO TODO LIST*/
 
@@ -146,41 +112,7 @@ cursor: pointer;
     background-repeat: no-repeat;
     cursor: pointer;
 }
-.abatd{
-    border: 1px solid #bd4520;
-    width: 500px;
-    height: 300px;
-    background-color: #efefef;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    margin-top: -150px; /* metade da altura */
-    margin-left: -250px; /* metade da largura */
-    -webkit-box-shadow: 9px 11px 5px -3px rgba(0,0,0,0.75);
-    -moz-box-shadow: 9px 11px 5px -3px rgba(0,0,0,0.75);
-    box-shadow: 9px 11px 5px -3px rgba(0,0,0,0.75);
-    border-radius: 5px;
-    z-index: 9999; /* define um valor alto de z-index para a div */
-}
 
-.closeTD{
-    width: 30px;
-    height: 30px;
-    margin-left: auto;
-    margin-bottom: 15px;
-    border-radius: 5px;
-}
-
-.closeTD svg{
-    cursor: pointer;
-    background-color: #efefef;
-    border-radius: 5px;
-    
-    
-}
-.abatd h3{
-    border-radius: 10px;
-}
 /*FINAL TODOLIST*/
 
 /*INICIO ESTULO RESTAURANTE*/
@@ -192,43 +124,6 @@ cursor: pointer;
     background-repeat: no-repeat;
     cursor: pointer;
         
-}
-
-.abart{
-    border: 1px solid #bd4520;
-    width: 500px;
-    height: 300px;
-    background-color: #efefef;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    margin-top: -150px; /* metade da altura */
-    margin-left: -250px; /* metade da largura */
-    -webkit-box-shadow: 9px 11px 5px -3px rgba(0,0,0,0.75);
-    -moz-box-shadow: 9px 11px 5px -3px rgba(0,0,0,0.75);
-    box-shadow: 9px 11px 5px -3px rgba(0,0,0,0.75);
-    border-radius: 5px;
-    z-index: 9999; /* define um valor alto de z-index para a div */
-}
-
-.closeRT{
-    width: 30px;
-    height: 30px;
-    margin-left: auto;
-    margin-bottom: 15px;
-    border-radius: 5px;
-}
-
-.closeRT svg{
-    cursor: pointer;
-    background-color: #efefef;
-    border-radius: 5px;
-    
-    
-}
-
-.abart h3{
-    border-radius: 10px;
 }
 
 /*final restaurante */
