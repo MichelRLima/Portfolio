@@ -9,14 +9,18 @@ function Projetos (){
     const jdvrep =  'https://github.com/MichelRLima/Jogo-da-velha'
     const bcLink = 'https://search-mycep.netlify.app';
     const bcrep =  'https://github.com/MichelRLima/BuscarCep'
+    const abLink = 'https://portfolio-agenciabold.netlify.app';
+    const abrep =  'https://github.com/MichelRLima/Agencia-bold'
     const tdLink = 'https://react-tasktodolist.netlify.app';
     const tdrep =  'https://github.com/MichelRLima/TodoList'
     const rtLink = 'https://restaurante-hungrychef.netlify.app';
     const rtrep =  'https://github.com/MichelRLima/Cardapio'
     const [jdv, setJdv] = useState(false);
     const [bc, setBc] = useState(false);
+    const [ab, setAb] = useState(false);
     const [td, setTd] = useState(false);
     const [rt, setRt] = useState(false);
+    
     
     
     return(
@@ -63,6 +67,27 @@ function Projetos (){
                         <p>React</p>
                         <button><Button target="_blank" href={bcLink} variant="success">Site</Button></button>
                         <button><Button target="_blank" href={bcrep} variant="secondary">Repositório</Button></button>
+                        
+                    </div>
+                </div>
+                )}
+
+            </div>
+            
+            <br/>
+
+            <div className={styles.projeto}>
+                <h3>Agência Bold</h3>
+                <div onClick={() => setAb(!ab)} className={styles.agenciaBold}></div>
+                {ab && (
+                    <div className={styles.aba}>
+                   
+                    <div onClick={() => setAb(!ab)} className={styles.close}><FaSignOutAlt size={30}/></div>
+                    <div className={styles.containerDescricao}>
+                        <h3>Agencia Bold</h3>
+                        <p>HTML5 | CSS3 | JavaScript</p>
+                        <button><Button target="_blank" href={abLink} variant="success">Site</Button></button>
+                        <button><Button target="_blank" href={abrep} variant="secondary">Repositório</Button></button>
                         
                     </div>
                 </div>

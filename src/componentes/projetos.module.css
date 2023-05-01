@@ -102,6 +102,20 @@ cursor: pointer;
    
 
 /*FINAL BUSCAR CEP*/
+
+/* iNICIO ESTILO agencia bold*/
+.agenciaBold{
+    width: 100%;
+    height: 400px;
+    background-image: url('../images/agenciabold.JPG');
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    
+    }
+   
+
+/*FINAL agencia bold*/
 /* iNICIO ESTILO TODO LIST*/
 
 .todoList{
@@ -139,7 +153,7 @@ cursor: pointer;
 }
 
 /*efeito para aumentar a tela quando passar o mouse por cima*/
-.jogoDaVelha, .buscarCep, .todoList, .restaurante{
+.jogoDaVelha, .buscarCep, .todoList, .restaurante, .agenciaBold{
     transition: transform 0.3s ease-in-out;
 }
 
@@ -158,6 +172,10 @@ cursor: pointer;
     transform: scale(1.2);
 }
 
+.agenciaBold:hover{
+    transform: scale(1.2);
+}
+
 
 @media screen and (max-width: 768px){
     .projeto{
@@ -171,7 +189,7 @@ cursor: pointer;
         width: 100%;
         height: 150px;
     }
-    .abajdv{
+    .aba{
         width: 100%;
         height: 260px;
         margin-top: -125px; /* metade da altura */
@@ -184,34 +202,25 @@ cursor: pointer;
         width: 100%;
         height: 150px;
     }
-    .ababc{
+    
+
+    .agenciaBold{
         width: 100%;
-        height: 260px;
-        margin-top: -125px; /* metade da altura */
-        margin-left: -50%; /* metade da largura */
+        height: 150px;
     }
+    
 
     .todoList{
         width: 100%;
         height: 150px;
     }
-    .abatd{
-        width: 100%;
-        height: 260px;
-        margin-top: -125px; /* metade da altura */
-        margin-left: -50%; /* metade da largura */
-    }
+    
 
     .restaurante{
         width: 100%;
         height: 150px;
     }
-    .abart{
-        width: 100%;
-        height: 260px;
-        margin-top: -125px; /* metade da altura */
-        margin-left: -50%; /* metade da largura */
-    }
+    
    
   }
 
@@ -227,43 +236,33 @@ cursor: pointer;
         width: 100%;
         height: 300px;
     }
-    .abajdv{
+
+    .buscarCep{
+        width: 100%;
+        height: 300px;
+    }
+    .aba{
         width: 400px;
         height: 200px;
-        margin-top: -100px; /* metade da altura */
+        margin-top: -200px; /* metade da altura */
         margin-left: -200px; /* metade da largura */
 
     }
 
-    .ababc{
-        width: 400px;
-        height: 200px;
-        margin-top: -100px; /* metade da altura */
-        margin-left: -200px; /* metade da largura */
-    }
+    
 
     .todoList{
         width: 100%;
         height: 300px;
     }
 
-    .abatd{
-        width: 400px;
-        height: 200px;
-        margin-top: -100px; /* metade da altura */
-        margin-left: -200px; /* metade da largura */
-    }
+    
 
     .restaurante{
         width: 100%;
         height: 300px;
     }
-    .abart{
-        width: 400px;
-        height: 200px;
-        margin-top: -100px; /* metade da altura */
-        margin-left: -200px; /* metade da largura */
-    }
+  
 
    
   }
