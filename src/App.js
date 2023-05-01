@@ -37,7 +37,7 @@ function App() {
       <FaBars onClick={() => setShowDiv(!showDiv)} size={32} />
     
     </div>
-    <div className="menuMobile" style={{display: showDiv ? 'block' : 'none', transition: 'opacity , 2s'}}>
+    <div className="menuMobile" style={{display: showDiv ? 'block' : 'none'}}>
           <Link onClick={() => setShowDiv(!showDiv)} to="/">Sobre</ Link>
           <Link onClick={() => setShowDiv(!showDiv)} to="componentes/projetos">Projetos</ Link> 
          
