@@ -9,6 +9,12 @@ return(
         <h1 className={styles.titulo}>Quem sou eu</h1>
     </div>
     <div className={styles.containerTexto}>
+    <div className={styles.containerPerfil}></div>
+    <div className={styles.redes}>
+    <a href='https://www.linkedin.com/in/michel-rocha-01b550210/' target='_blanck'><AiFillLinkedin color='#0e76a8' size={40} /></a>
+    <a href='https://github.com/MichelRLima' target='_blanck'><AiFillGithub color='#181717' size={40} /></a>
+    </div>
+    <br/>
     <p>
     Olá, meu nome é Michel, tenho 24 anos e sou de Natal/RN. 
     Sou um profissional em desenvolvimento web e embora ainda 
@@ -43,11 +49,7 @@ return(
     Agradeço pela visita e espero ter a oportunidade de colaborar com você em projetos futuros.
     
     </p>
-    <div className={styles.containerPerfil}></div>
-    <div className={styles.redes}>
-    <a href='https://www.linkedin.com/in/michel-rocha-01b550210/' target='_blanck'><AiFillLinkedin color='#0e76a8' size={40} /></a>
-    <a href='https://github.com/MichelRLima' target='_blanck'><AiFillGithub color='#181717' size={40} /></a>
-    </div>
+    
     </div>
 
     
