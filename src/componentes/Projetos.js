@@ -31,7 +31,50 @@ function Projetos (){
 
         <div className={styles.containerProjetos}>
 
-       
+        <div className={styles.projeto}>
+                <h3>Agência Bold</h3>
+                <div onClick={() => setAb(!ab)} className={styles.agenciaBold}></div>
+                {ab && (
+                    <div className={styles.aba}>
+                   
+                    <div onClick={() => setAb(!ab)} className={styles.close}><FaSignOutAlt size={30}/></div>
+                    <div className={styles.containerDescricao}>
+                        <h3>Agencia Bold</h3>
+                        <p>HTML5 | CSS3 | JavaScript</p>
+                        <button><Button target="_blank" href={abLink} variant="success">Site</Button></button>
+                        <button><Button target="_blank" href={abrep} variant="secondary">Repositório</Button></button>
+                        
+                    </div>
+                </div>
+                )}
+
+            </div>
+
+
+            <br/>
+     
+
+            <div className={styles.projeto}>
+                <h3>Buscar CEP</h3>
+                <div onClick={() => setBc(!bc)} className={styles.buscarCep}></div>
+                {bc && (
+                    <div className={styles.aba}>
+                   
+                    <div onClick={() => setBc(!bc)} className={styles.close}><FaSignOutAlt size={30}/></div>
+                    <div className={styles.containerDescricao}>
+                        <h3>Buscar CEP</h3>
+                        <p>React | Axios | Bootstrap</p>
+                        <button><Button target="_blank" href={bcLink} variant="success">Site</Button></button>
+                        <button><Button target="_blank" href={bcrep} variant="secondary">Repositório</Button></button>
+                        
+                    </div>
+                </div>
+                )}
+
+            </div>
+            
+            <br/>
+            
             <div className={styles.projeto}>
                 <h3>Jogo da Velha</h3>
                 <div onClick={() => setJdv(!jdv)} className={styles.jogoDaVelha}></div>
@@ -52,48 +95,7 @@ function Projetos (){
                 
 
             </div>
-            <br/>
-     
-
-            <div className={styles.projeto}>
-                <h3>Buscar CEP</h3>
-                <div onClick={() => setBc(!bc)} className={styles.buscarCep}></div>
-                {bc && (
-                    <div className={styles.aba}>
-                   
-                    <div onClick={() => setBc(!bc)} className={styles.close}><FaSignOutAlt size={30}/></div>
-                    <div className={styles.containerDescricao}>
-                        <h3>Buscar CEP</h3>
-                        <p>React</p>
-                        <button><Button target="_blank" href={bcLink} variant="success">Site</Button></button>
-                        <button><Button target="_blank" href={bcrep} variant="secondary">Repositório</Button></button>
-                        
-                    </div>
-                </div>
-                )}
-
-            </div>
             
-            <br/>
-
-            <div className={styles.projeto}>
-                <h3>Agência Bold</h3>
-                <div onClick={() => setAb(!ab)} className={styles.agenciaBold}></div>
-                {ab && (
-                    <div className={styles.aba}>
-                   
-                    <div onClick={() => setAb(!ab)} className={styles.close}><FaSignOutAlt size={30}/></div>
-                    <div className={styles.containerDescricao}>
-                        <h3>Agencia Bold</h3>
-                        <p>HTML5 | CSS3 | JavaScript</p>
-                        <button><Button target="_blank" href={abLink} variant="success">Site</Button></button>
-                        <button><Button target="_blank" href={abrep} variant="secondary">Repositório</Button></button>
-                        
-                    </div>
-                </div>
-                )}
-
-            </div>
 
             <br/>
 
@@ -108,7 +110,7 @@ function Projetos (){
                     <div onClick={() => setTd(!td)} className={styles.close}><FaSignOutAlt size={30}/></div>
                     <div className={styles.containerDescricao}>
                         <h3>Todo List</h3>
-                        <p>React</p>
+                        <p>React | Bootstrap | useEffect</p>
                         <button><Button target="_blank" href={tdLink} variant="success">Site</Button></button>
                         <button><Button target="_blank" href={tdrep} variant="secondary">Repositório</Button></button>
                         
@@ -130,7 +132,7 @@ function Projetos (){
                     <div onClick={() => setRt(!rt)} className={styles.close}><FaSignOutAlt size={30}/></div>
                     <div className={styles.containerDescricao}>
                         <h3>Cardápio / Restaurante</h3>
-                        <p>React</p>
+                        <p>React | CSS3 | useEffect</p>
                         <button><Button target="_blank" href={rtLink} variant="success">Site</Button></button>
                         <button><Button target="_blank" href={rtrep} variant="secondary">Repositório</Button></button>
                         

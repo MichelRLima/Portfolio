@@ -1,4 +1,5 @@
 import styles from './sobre.module.css'
+import {AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
 function Sobre (){
     
     
@@ -43,7 +44,13 @@ return(
     
     </p>
     <div className={styles.containerPerfil}></div>
+    <div className={styles.redes}>
+    <a href='https://www.linkedin.com/in/michel-rocha-01b550210/' target='_blanck'><AiFillLinkedin color='#0e76a8' size={40} /></a>
+    <a href='https://github.com/MichelRLima' target='_blanck'><AiFillGithub color='#181717' size={40} /></a>
     </div>
+    </div>
+
+    
     
     </>
     )
