@@ -34,7 +34,7 @@ function Projetos (){
         <div className={styles.containerProjetos}>
 
         <div className={styles.projeto}>
-                <h3>Agência Bold</h3>
+                <h3>Calculadora</h3>
                 <div onClick={() => setCalc(!calc)} className={styles.calculadora}></div>
                 {calc && (
                     <div className={styles.aba}>
