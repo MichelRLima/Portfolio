@@ -116,6 +116,20 @@ cursor: pointer;
    
 
 /*FINAL agencia bold*/
+
+/* iNICIO ESTILO calculadora*/
+.calculadora{
+    width: 100%;
+    height: 400px;
+    background-image: url('../images/calculadora.JPG');
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    
+    }
+   
+
+/*FINAL calculadora*/
 /* iNICIO ESTILO TODO LIST*/
 
 .todoList{
@@ -153,7 +167,7 @@ cursor: pointer;
 }
 
 /*efeito para aumentar a tela quando passar o mouse por cima*/
-.jogoDaVelha, .buscarCep, .todoList, .restaurante, .agenciaBold, h3{
+.jogoDaVelha, .buscarCep, .todoList, .restaurante, .agenciaBold, .calculadora h3{
     transition: transform 0.3s ease-in-out;
 }
 
@@ -173,6 +187,10 @@ cursor: pointer;
 }
 
 .agenciaBold:hover{
+    transform: scale(1.2);
+}
+
+.calculadora:hover{
     transform: scale(1.2);
 }
 

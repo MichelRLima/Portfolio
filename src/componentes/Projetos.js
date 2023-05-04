@@ -15,12 +15,14 @@ function Projetos (){
     const tdrep =  'https://github.com/MichelRLima/TodoList'
     const rtLink = 'https://restaurante-hungrychef.netlify.app';
     const rtrep =  'https://github.com/MichelRLima/Cardapio'
+    const calcLink = 'https://mycalc-basic.netlify.app'
+    const calcrep =  'https://github.com/MichelRLima/Calculadora'
     const [jdv, setJdv] = useState(false);
     const [bc, setBc] = useState(false);
     const [ab, setAb] = useState(false);
     const [td, setTd] = useState(false);
     const [rt, setRt] = useState(false);
-    
+    const [calc, setCalc] = useState(false);
     
     
     return(
@@ -30,6 +32,28 @@ function Projetos (){
         <h2 className={styles.titulo}>Projetos</h2>
 
         <div className={styles.containerProjetos}>
+
+        <div className={styles.projeto}>
+                <h3>Agência Bold</h3>
+                <div onClick={() => setCalc(!calc)} className={styles.calculadora}></div>
+                {calc && (
+                    <div className={styles.aba}>
+                   
+                    <div onClick={() => setCalc(!calc)} className={styles.close}><FaSignOutAlt size={30}/></div>
+                    <div className={styles.containerDescricao}>
+                        <h3>Calculadora</h3>
+                        <p>React | CSS3 | Bootstrap</p>
+                        <button><Button target="_blank" href={calcLink} variant="success">Site</Button></button>
+                        <button><Button target="_blank" href={calcrep} variant="secondary">Repositório</Button></button>
+                        
+                    </div>
+                </div>
+                )}
+
+            </div>
+
+
+            <br/>
 
         <div className={styles.projeto}>
                 <h3>Agência Bold</h3>
