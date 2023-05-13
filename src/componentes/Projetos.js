@@ -45,7 +45,7 @@ function Projetos (){
                     <div onClick={() => setCoin(!coin)} className={styles.close}><FaSignOutAlt size={30}/></div>
                     <div className={styles.containerDescricao}>
                         <h3>Conversor de Moedas</h3>
-                        <p>React | CSS3 | useEffect</p>
+                        <p>React | Axios | Bootstrap</p>
                         <button><Button target="_blank" href={coinLink} variant="success">Site</Button></button>
                         <button><Button target="_blank" href={coinrep} variant="secondary">Repositório</Button></button>
                         
