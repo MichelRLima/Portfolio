@@ -30,19 +30,23 @@ function App() {
           <Link to="componentes/projetos">Projetos</ Link> 
           <Link to="componentes/contato">Contato</ Link>
       </div>
-      
-    </div>
 
-    <div className="containerMobile">
+      <div className="containerMobile">
       <FaBars onClick={() => setShowDiv(!showDiv)} size={32} />
     
     </div>
+
     <div className="menuMobile" style={{display: showDiv ? 'block' : 'none'}}>
           <Link onClick={() => setShowDiv(!showDiv)} to="/">Sobre</ Link>
           <Link onClick={() => setShowDiv(!showDiv)} to="componentes/projetos">Projetos</ Link> 
          
           <Link onClick={() => setShowDiv(!showDiv)}  to="componentes/contato">Contato</ Link>
     </div>
+      
+    </div>
+
+    
+    
 
     <Routes>
         
