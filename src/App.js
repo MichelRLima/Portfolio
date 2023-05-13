@@ -8,7 +8,7 @@ import Contato from "./componentes/Contato";
 import { AiFillHtml5 } from 'react-icons/ai';
 import { IoLogoCss3, IoLogoJavascript } from 'react-icons/io5';
 import { DiJqueryLogo, DiReact, DiPython } from 'react-icons/di';
-import { SiCsharp } from 'react-icons/si';
+import { SiCsharp, SiAxios } from 'react-icons/si';
 import {FaBars} from 'react-icons/fa'
 import { useState } from "react";
 
@@ -59,14 +59,17 @@ function App() {
       <div className="containerFooter">
       
         <div className="icones">
+         
         <h4>Tecnologias</h4>
       <AiFillHtml5 title="HTML5" size={32} color="#f59519" />
       <IoLogoCss3 title="CSS3" size={32} color="#428ad6" />
-      <IoLogoJavascript title="JavaScript" size={32} color="#d5f060"/>
-      <DiJqueryLogo title="jQuery" size={32} color="#0769ad" />
+      <IoLogoJavascript title="JavaScript" size={32} color="#d5f060"/>    
       <DiReact title="React" size={32} color="#0769ad"/>
+      <SiAxios title="Axios"size={32} color="#007ACC"/>
+      <DiJqueryLogo title="jQuery" size={32} color="#0769ad" />
       <DiPython title="Python" size={32} color="#3776ab"/>
       <SiCsharp title="C#"size={32} color="#68217a"/>
+      
       </div>
       </div>
     </footer>
