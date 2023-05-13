@@ -17,12 +17,15 @@ function Projetos (){
     const rtrep =  'https://github.com/MichelRLima/Cardapio'
     const calcLink = 'https://mycalc-basic.netlify.app'
     const calcrep =  'https://github.com/MichelRLima/Calculadora'
+    const coinLink = 'https://coin-to-real.netlify.app'
+    const coinrep =  'https://github.com/MichelRLima/Conversor-de-moedas'
     const [jdv, setJdv] = useState(false);
     const [bc, setBc] = useState(false);
     const [ab, setAb] = useState(false);
     const [td, setTd] = useState(false);
     const [rt, setRt] = useState(false);
     const [calc, setCalc] = useState(false);
+    const [coin, setCoin] = useState(false);
     
     
     return(
@@ -34,6 +37,52 @@ function Projetos (){
         <div className={styles.containerProjetos}>
 
         <div className={styles.projeto}>
+            <h3>Conversor de Moedas</h3>
+            <div onClick={() => setCoin(!coin)} className={styles.conversor}></div>
+            {coin && (
+                    <div className={styles.aba}>
+                   
+                    <div onClick={() => setCoin(!coin)} className={styles.close}><FaSignOutAlt size={30}/></div>
+                    <div className={styles.containerDescricao}>
+                        <h3>Conversor de Moedas</h3>
+                        <p>React | CSS3 | useEffect</p>
+                        <button><Button target="_blank" href={coinLink} variant="success">Site</Button></button>
+                        <button><Button target="_blank" href={coinrep} variant="secondary">Repositório</Button></button>
+                        
+                    </div>
+                </div>
+                )}
+
+            </div>
+
+
+
+            <br/>
+
+        <div className={styles.projeto}>
+            <h3>Cardápio / Restaurante</h3>
+            <div onClick={() => setRt(!rt)} className={styles.restaurante}></div>
+            {rt && (
+                    <div className={styles.aba}>
+                   
+                    <div onClick={() => setRt(!rt)} className={styles.close}><FaSignOutAlt size={30}/></div>
+                    <div className={styles.containerDescricao}>
+                        <h3>Cardápio / Restaurante</h3>
+                        <p>React | CSS3 | useEffect</p>
+                        <button><Button target="_blank" href={rtLink} variant="success">Site</Button></button>
+                        <button><Button target="_blank" href={rtrep} variant="secondary">Repositório</Button></button>
+                        
+                    </div>
+                </div>
+                )}
+
+            </div>
+
+
+
+            <br/>
+
+            <div className={styles.projeto}>
                 <h3>Calculadora</h3>
                 <div onClick={() => setCalc(!calc)} className={styles.calculadora}></div>
                 {calc && (
@@ -45,28 +94,6 @@ function Projetos (){
                         <p>React | CSS3 | Bootstrap</p>
                         <button><Button target="_blank" href={calcLink} variant="success">Site</Button></button>
                         <button><Button target="_blank" href={calcrep} variant="secondary">Repositório</Button></button>
-                        
-                    </div>
-                </div>
-                )}
-
-            </div>
-
-
-            <br/>
-
-        <div className={styles.projeto}>
-                <h3>Agência Bold</h3>
-                <div onClick={() => setAb(!ab)} className={styles.agenciaBold}></div>
-                {ab && (
-                    <div className={styles.aba}>
-                   
-                    <div onClick={() => setAb(!ab)} className={styles.close}><FaSignOutAlt size={30}/></div>
-                    <div className={styles.containerDescricao}>
-                        <h3>Agencia Bold</h3>
-                        <p>HTML5 | CSS3 | JavaScript</p>
-                        <button><Button target="_blank" href={abLink} variant="success">Site</Button></button>
-                        <button><Button target="_blank" href={abrep} variant="secondary">Repositório</Button></button>
                         
                     </div>
                 </div>
@@ -100,30 +127,6 @@ function Projetos (){
             <br/>
             
             <div className={styles.projeto}>
-                <h3>Jogo da Velha</h3>
-                <div onClick={() => setJdv(!jdv)} className={styles.jogoDaVelha}></div>
-
-                {jdv && (
-                    <div className={styles.aba}>
-                   
-                    <div onClick={() => setJdv(!jdv)} className={styles.close}><FaSignOutAlt size={30}/></div>
-                    <div className={styles.containerDescricao}>
-                        <h3>Jogo da velha</h3>
-                        <p>HTML5 | CSS3 | jQuery</p>
-                        <button><Button target="_blank" href={jdvLink} variant="success">Site</Button></button>
-                        <button><Button target="_blank" href={jdvrep} variant="secondary">Repositório</Button></button>
-                        
-                    </div>
-                </div>
-                )}
-                
-
-            </div>
-            
-
-            <br/>
-
-            <div className={styles.projeto}>
 
             <h3>Todo List</h3>
             <div onClick={() => setTd(!td)} className={styles.todoList}></div>
@@ -144,21 +147,46 @@ function Projetos (){
 
 
             </div>
+            
 
             <br/>
 
             <div className={styles.projeto}>
-            <h3>Cardápio / Restaurante</h3>
-            <div onClick={() => setRt(!rt)} className={styles.restaurante}></div>
-            {rt && (
+                <h3>Jogo da Velha</h3>
+                <div onClick={() => setJdv(!jdv)} className={styles.jogoDaVelha}></div>
+
+                {jdv && (
                     <div className={styles.aba}>
                    
-                    <div onClick={() => setRt(!rt)} className={styles.close}><FaSignOutAlt size={30}/></div>
+                    <div onClick={() => setJdv(!jdv)} className={styles.close}><FaSignOutAlt size={30}/></div>
                     <div className={styles.containerDescricao}>
-                        <h3>Cardápio / Restaurante</h3>
-                        <p>React | CSS3 | useEffect</p>
-                        <button><Button target="_blank" href={rtLink} variant="success">Site</Button></button>
-                        <button><Button target="_blank" href={rtrep} variant="secondary">Repositório</Button></button>
+                        <h3>Jogo da velha</h3>
+                        <p>HTML5 | CSS3 | jQuery</p>
+                        <button><Button target="_blank" href={jdvLink} variant="success">Site</Button></button>
+                        <button><Button target="_blank" href={jdvrep} variant="secondary">Repositório</Button></button>
+                        
+                    </div>
+                </div>
+                )}
+                
+
+            </div>
+
+
+            <br/>
+
+            <div className={styles.projeto}>
+                <h3>Agência Bold</h3>
+                <div onClick={() => setAb(!ab)} className={styles.agenciaBold}></div>
+                {ab && (
+                    <div className={styles.aba}>
+                   
+                    <div onClick={() => setAb(!ab)} className={styles.close}><FaSignOutAlt size={30}/></div>
+                    <div className={styles.containerDescricao}>
+                        <h3>Agencia Bold</h3>
+                        <p>HTML5 | CSS3 | JavaScript</p>
+                        <button><Button target="_blank" href={abLink} variant="success">Site</Button></button>
+                        <button><Button target="_blank" href={abrep} variant="secondary">Repositório</Button></button>
                         
                     </div>
                 </div>

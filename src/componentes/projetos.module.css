@@ -87,6 +87,17 @@ cursor: pointer;
 }
 
 
+.conversor{
+    width: 100%;
+    height: 400px;
+    background-image: url('../images/CoinToReal.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+        
+}
+
+
 /* FINAL ESTILO JOGO DA VELHA */
 
 /* iNICIO ESTILO BUSCAR CEP*/
@@ -167,7 +178,7 @@ cursor: pointer;
 }
 
 /*efeito para aumentar a tela quando passar o mouse por cima*/
-.jogoDaVelha, .buscarCep, .todoList, .restaurante, .agenciaBold, .calculadora{
+.jogoDaVelha, .buscarCep, .todoList, .restaurante, .agenciaBold, .calculadora, .conversor{
     transition: transform 0.3s ease-in-out;
 }
 
@@ -191,6 +202,9 @@ cursor: pointer;
 }
 
 .calculadora:hover{
+    transform: scale(1.2);
+}
+.conversor:hover{
     transform: scale(1.2);
 }
 
@@ -242,6 +256,11 @@ cursor: pointer;
         width: 100%;
         height: 150px;
     }
+
+    .conversor{
+        width: 100%;
+        height: 150px;
+    }
     
    
   }
@@ -286,6 +305,11 @@ cursor: pointer;
     }
 
     .calculadora{
+        width: 100%;
+        height: 300px;
+    }
+
+    .conversor{
         width: 100%;
         height: 300px;
     }

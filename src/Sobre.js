@@ -16,39 +16,29 @@ return(
     </div>
     <br/>
     <p>
-    Olá, meu nome é Michel, tenho 24 anos e sou de Natal/RN. 
-    Sou um profissional em desenvolvimento web e embora ainda 
-    não tenha experiência profissional na área, venho me dedicando 
-    para ingressar no mercado de trabalho e construir uma carreira 
-    de sucesso.
+    Olá, eu sou Michel, um estudante de 24 anos de Análise e Desenvolvimento de Sistemas 
+    que mora em Natal/RN e que está em busca de uma oportunidade no mercado de trabalho de 
+    desenvolvimento web. Meu amor pela área começou em 2020, quando comecei a estudar por conta 
+    própria e rapidamente me apaixonei por desenvolvimento web. Desde então, venho trabalhando duro 
+    para alcançar meu objetivo e estou constantemente atualizando minhas habilidades por meio de cursos 
+    e projetos.
     </p>
     <p>
-    Descobri minha paixão por desenvolvimento web em 2021, durante a pandemia, 
-    quando comecei a estudar sozinho, começando com cursos gratuitos no 
-    YouTube e depois comprando cursos online. No final de 2022, ingressei 
-    na graduação em Análise e Desenvolvimento de Sistemas para aprimorar 
-    ainda mais meus conhecimentos. 
+    Atualmente, tenho habilidades no front-end, com conhecimento em HTML, CSS e JAVASCRIPT,
+     incluindo suas bibliotecas, como JQUERY. Também estou trabalhando em projetos usando React
+      e consumindo APIs, e tenho habilidades em Python e C#. Eu adoro trabalhar em equipe,
+       acredito que compartilhar conhecimento é a melhor forma de crescermos juntos. Apesar
+     de ainda não ter experiência na área, tenho um método de estudo proativo e sou extremamente dedicado.
     </p>
     <p>
-    Minhas habilidades incluem HTML5, CSS3, JavaScript, jQuery e React, além de 
-    ter conhecimento em Python e C#. Apesar de ainda não ter experiência na área 
-    de desenvolvimento web, atualmente sou analista de suporte na empresa Riachuelo,
-     onde tenho a oportunidade de aprender muito e sempre que possível, coloco em prática 
-     minhas habilidades de programação para ajudar no trabalho.
+    Eu sou uma pessoa tranquila e confiável, que sabe agir bem sob pressão e que acredita
+     que nada é impossível quando se tem dedicação, esforço e alguns recursos para alcançar
+      seus objetivos. Sou facilmente adaptável e sempre disposto a aprender coisas novas.Meu 
+      objetivo é me tornar um desenvolvedor full-stack e continuar a evoluir na área. Estou 
+      animado para ver onde essa jornada me levará e estou ansioso para trabalhar em projetos 
+      desafiadores e inspiradores.
     </p>
 
-    <p>
-    Meu sonho é me tornar um desenvolvedor de sucesso e estou trabalhando incansavelmente 
-    para alcançá-lo. Convido você a visitar a aba Projetos do meu portfólio para ver meus 
-    trabalhos e como eu aplico minhas habilidades de programação para criar soluções inovadoras.
-    </p>
-
-    <p>
-    Acredito que cada projeto é uma oportunidade de aprendizado e evolução, e estou animado 
-    para continuar crescendo e me desenvolvendo como profissional de desenvolvimento web. 
-    Agradeço pela visita e espero ter a oportunidade de colaborar com você em projetos futuros.
-    
-    </p>
     
     </div>
 
