@@ -61,10 +61,10 @@ function App() {
     <footer>
     
       <div className="containerFooter">
-      
+      <h4>Tecnologias</h4>
         <div className="icones">
          
-        <h4>Tecnologias</h4>
+        
       <AiFillHtml5 title="HTML5" size={32} color="#f59519" />
       <IoLogoCss3 title="CSS3" size={32} color="#428ad6" />
       <IoLogoJavascript title="JavaScript" size={32} color="#d5f060"/>    
