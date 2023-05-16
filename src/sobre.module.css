@@ -19,9 +19,14 @@
     width: 90%;
     margin:100px auto 200px;
     padding: 30px;
-    border: 1px solid black;
+    border: 3px solid #b88474;
     border-radius: 10px;
+    transition: 1s;
     
+}
+
+.containerTexto:hover{
+   border-color: #bd4520;
 }
 
 .containerTexto p{
@@ -33,6 +38,7 @@
     
     
 }
+
 
 .containerPerfil{
   margin: 25px auto;

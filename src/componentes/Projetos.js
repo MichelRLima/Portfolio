@@ -19,6 +19,8 @@ function Projetos (){
     const calcrep =  'https://github.com/MichelRLima/Calculadora'
     const coinLink = 'https://coin-to-real.netlify.app'
     const coinrep =  'https://github.com/MichelRLima/Conversor-de-moedas'
+    const gifLink = 'https://sharegif.netlify.app'
+    const gifrep =  'https://github.com/MichelRLima/BuscarGIF'
     const [jdv, setJdv] = useState(false);
     const [bc, setBc] = useState(false);
     const [ab, setAb] = useState(false);
@@ -26,6 +28,7 @@ function Projetos (){
     const [rt, setRt] = useState(false);
     const [calc, setCalc] = useState(false);
     const [coin, setCoin] = useState(false);
+    const [gif, setGif] = useState(false);
     
     
     return(
@@ -48,6 +51,29 @@ function Projetos (){
                         <p>React | Axios | Bootstrap</p>
                         <button><Button target="_blank" href={coinLink} variant="success">Site</Button></button>
                         <button><Button target="_blank" href={coinrep} variant="secondary">Repositório</Button></button>
+                        
+                    </div>
+                </div>
+                )}
+
+            </div>
+
+
+
+            <br/>
+
+            <div className={styles.projeto}>
+            <h3>Buscar GIF</h3>
+            <div onClick={() => setGif(!gif)} className={styles.gif}></div>
+            {gif && (
+                    <div className={styles.aba}>
+                   
+                    <div onClick={() => setGif(!gif)} className={styles.close}><FaSignOutAlt size={30}/></div>
+                    <div className={styles.containerDescricao}>
+                        <h3>Buscar GIF</h3>
+                        <p>React | CSS3 | useEffect</p>
+                        <button><Button target="_blank" href={gifLink} variant="success">Site</Button></button>
+                        <button><Button target="_blank" href={gifrep} variant="secondary">Repositório</Button></button>
                         
                     </div>
                 </div>
