@@ -48,7 +48,7 @@ function Projetos (){
                     <div onClick={() => setCoin(!coin)} className={styles.close}><FaSignOutAlt size={30}/></div>
                     <div className={styles.containerDescricao}>
                         <h3>Conversor de Moedas</h3>
-                        <p>React | Axios | Bootstrap</p>
+                        <p>React | Axios | AwesomeAPI</p>
                         <button><Button target="_blank" href={coinLink} variant="success">Site</Button></button>
                         <button><Button target="_blank" href={coinrep} variant="secondary">Repositório</Button></button>
                         
@@ -71,7 +71,7 @@ function Projetos (){
                     <div onClick={() => setGif(!gif)} className={styles.close}><FaSignOutAlt size={30}/></div>
                     <div className={styles.containerDescricao}>
                         <h3>Buscar GIF</h3>
-                        <p>React | CSS3 | useEffect</p>
+                        <p>React | Axios | API do Giphy</p>
                         <button><Button target="_blank" href={gifLink} variant="success">Site</Button></button>
                         <button><Button target="_blank" href={gifrep} variant="secondary">Repositório</Button></button>
                         
