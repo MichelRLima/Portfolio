@@ -1,5 +1,5 @@
 import styles from './projetos.module.css'
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { FaSignOutAlt } from 'react-icons/fa';
 import Button from 'react-bootstrap/Button';
 
@@ -30,6 +30,13 @@ function Projetos (){
     const [coin, setCoin] = useState(false);
     const [gif, setGif] = useState(false);
     
+  
+        useEffect(() => {
+           
+          // Ao montar o componente, rolar para o topo da página
+          window.scrollTo(0, 0);
+        }, []);
+          
     
     return(
         <>
