@@ -21,6 +21,8 @@ function Projetos (){
     const coinrep =  'https://github.com/MichelRLima/Conversor-de-moedas'
     const gifLink = 'https://sharegif.netlify.app'
     const gifrep =  'https://github.com/MichelRLima/BuscarGIF'
+    const pokLink = 'https://mypokedex-go.netlify.app'
+    const pokrep =  'https://github.com/MichelRLima/Pokedex'
     const [jdv, setJdv] = useState(false);
     const [bc, setBc] = useState(false);
     const [ab, setAb] = useState(false);
@@ -29,6 +31,7 @@ function Projetos (){
     const [calc, setCalc] = useState(false);
     const [coin, setCoin] = useState(false);
     const [gif, setGif] = useState(false);
+    const [pok, setPok] = useState(false);
     
   
         useEffect(() => {
@@ -58,6 +61,29 @@ function Projetos (){
                         <p>React | Axios | AwesomeAPI</p>
                         <button><Button target="_blank" href={coinLink} variant="success">Site</Button></button>
                         <button><Button target="_blank" href={coinrep} variant="secondary">Repositório</Button></button>
+                        
+                    </div>
+                </div>
+                )}
+
+            </div>
+
+
+
+            <br/>
+
+            <div className={styles.projeto}>
+            <h3>Pokedex</h3>
+            <div onClick={() => setPok(!pok)} className={styles.pok}></div>
+            {pok && (
+                    <div className={styles.aba}>
+                   
+                    <div onClick={() => setPok(!pok)} className={styles.close}><FaSignOutAlt size={30}/></div>
+                    <div className={styles.containerDescricao}>
+                        <h3>Pokedex</h3>
+                        <p>React | Axios | PokeAPI</p>
+                        <button><Button target="_blank" href={pokLink} variant="success">Site</Button></button>
+                        <button><Button target="_blank" href={pokrep} variant="secondary">Repositório</Button></button>
                         
                     </div>
                 </div>

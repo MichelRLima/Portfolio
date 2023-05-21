@@ -1,7 +1,12 @@
 import styles from './contato.module.css'
 import { AiOutlineMail, AiOutlineWhatsApp, AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
+import { useEffect } from 'react';
 
 function Contato (){
+   useEffect(() => {
+      // Ao montar o componente, rolar para o topo da página
+      window.scrollTo(0, 0);
+    }, []);
 
     return(
     <>
