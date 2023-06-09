@@ -8,8 +8,9 @@ import Contato from "./componentes/Contato";
 import { AiFillHtml5 } from 'react-icons/ai';
 import { IoLogoCss3, IoLogoJavascript } from 'react-icons/io5';
 import { DiJqueryLogo, DiReact, DiPython } from 'react-icons/di';
-import { SiCsharp, SiAxios } from 'react-icons/si';
-import {FaBars} from 'react-icons/fa'
+import { SiCsharp, SiAxios, SiMongodb} from 'react-icons/si';
+import {FaBars, FaNodeJs} from 'react-icons/fa'
+import {BsBootstrapFill} from 'react-icons/bs'
 import { useState } from "react";
 
 function App() {
@@ -50,7 +51,6 @@ function App() {
     
 
     <Routes>
-        
 
         <Route path="/" exact element={<Sobre />} />
         <Route exact path="componentes/projetos" element={<Projetos />} />
@@ -71,6 +71,9 @@ function App() {
       <IoLogoJavascript title="JavaScript" size={32} color="#d5f060"/>    
       <DiReact title="React" size={32} color="#0769ad"/>
       <SiAxios title="Axios"size={32} color="#007ACC"/>
+      <FaNodeJs title="Node.js"size={32} color="#339933 "/>
+      <SiMongodb title="MongoDB"size={32} color="#47A248  "/>
+      <BsBootstrapFill title="Bootstrap"size={32} color="#7311ec" />
       <DiJqueryLogo title="jQuery" size={32} color="#0769ad" />
       <DiPython title="Python" size={32} color="#3776ab"/>
       <SiCsharp title="C#"size={32} color="#68217a"/>

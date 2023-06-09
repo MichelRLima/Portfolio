@@ -1,8 +1,13 @@
 import styles from './projetos.module.css'
 import { useState, useEffect } from "react";
-import { FaSignOutAlt } from 'react-icons/fa';
+import { AiOutlineCloseCircle} from 'react-icons/ai'
 import Button from 'react-bootstrap/Button';
-
+import { AiFillHtml5 } from 'react-icons/ai';
+import { IoLogoCss3, IoLogoJavascript } from 'react-icons/io5';
+import { DiJqueryLogo, DiReact} from 'react-icons/di';
+import {BsBootstrapFill} from 'react-icons/bs'
+import { SiAxios} from 'react-icons/si';
+import {TbApi} from 'react-icons/tb'
 
 function Projetos (){
     const jdvLink = 'https://game-jogodavelha.netlify.app';
@@ -55,10 +60,10 @@ function Projetos (){
             {coin && (
                     <div className={styles.aba}>
                    
-                    <div onClick={() => setCoin(!coin)} className={styles.close}><FaSignOutAlt size={30}/></div>
+                    <div onClick={() => setCoin(!coin)} className={styles.close}><AiOutlineCloseCircle size={30}/></div>
                     <div className={styles.containerDescricao}>
                         <h3>Conversor de Moedas</h3>
-                        <p>React | Axios | AwesomeAPI</p>
+                        <p><DiReact title="React" size={32} color="#0769ad"/> | <SiAxios title="Axios"size={29} color="#007ACC"/> | <TbApi title="AwesomeAPI"size={32} color="#000000"/> </p>
                         <button><Button target="_blank" href={coinLink} variant="success">Site</Button></button>
                         <button><Button target="_blank" href={coinrep} variant="secondary">Repositório</Button></button>
                         
@@ -78,10 +83,10 @@ function Projetos (){
             {pok && (
                     <div className={styles.aba}>
                    
-                    <div onClick={() => setPok(!pok)} className={styles.close}><FaSignOutAlt size={30}/></div>
+                    <div onClick={() => setPok(!pok)} className={styles.close}><AiOutlineCloseCircle size={30}/></div>
                     <div className={styles.containerDescricao}>
                         <h3>Pokedex</h3>
-                        <p>React | Axios | PokeAPI</p>
+                        <p><DiReact title="React" size={32} color="#0769ad"/> | <SiAxios title="Axios"size={29} color="#007ACC"/> | <TbApi title="PokeAPI"size={32} color="#000000"/></p>
                         <button><Button target="_blank" href={pokLink} variant="success">Site</Button></button>
                         <button><Button target="_blank" href={pokrep} variant="secondary">Repositório</Button></button>
                         
@@ -101,10 +106,10 @@ function Projetos (){
             {gif && (
                     <div className={styles.aba}>
                    
-                    <div onClick={() => setGif(!gif)} className={styles.close}><FaSignOutAlt size={30}/></div>
+                    <div onClick={() => setGif(!gif)} className={styles.close}><AiOutlineCloseCircle  size={30}/></div>
                     <div className={styles.containerDescricao}>
                         <h3>Buscar GIF</h3>
-                        <p>React | Axios | API do Giphy</p>
+                        <p><DiReact title="React" size={32} color="#0769ad"/> | <SiAxios title="Axios"size={29} color="#007ACC"/> | <TbApi title="API Giphy"size={32} color="#000000"/></p>
                         <button><Button target="_blank" href={gifLink} variant="success">Site</Button></button>
                         <button><Button target="_blank" href={gifrep} variant="secondary">Repositório</Button></button>
                         
@@ -124,10 +129,10 @@ function Projetos (){
             {rt && (
                     <div className={styles.aba}>
                    
-                    <div onClick={() => setRt(!rt)} className={styles.close}><FaSignOutAlt size={30}/></div>
+                    <div onClick={() => setRt(!rt)} className={styles.close}><AiOutlineCloseCircle  size={30}/></div>
                     <div className={styles.containerDescricao}>
                         <h3>Cardápio / Restaurante</h3>
-                        <p>React | CSS3 | useEffect</p>
+                        <p><DiReact title="React" size={32} color="#0769ad"/> | <IoLogoCss3 title="CSS3" size={32} color="#428ad6" /> </p>
                         <button><Button target="_blank" href={rtLink} variant="success">Site</Button></button>
                         <button><Button target="_blank" href={rtrep} variant="secondary">Repositório</Button></button>
                         
@@ -147,10 +152,10 @@ function Projetos (){
                 {calc && (
                     <div className={styles.aba}>
                    
-                    <div onClick={() => setCalc(!calc)} className={styles.close}><FaSignOutAlt size={30}/></div>
+                    <div onClick={() => setCalc(!calc)} className={styles.close}><AiOutlineCloseCircle  size={30}/></div>
                     <div className={styles.containerDescricao}>
                         <h3>Calculadora</h3>
-                        <p>React | CSS3 | Bootstrap</p>
+                        <p><DiReact title="React" size={32} color="#0769ad"/>| <IoLogoCss3 title="CSS3" size={32} color="#428ad6" /> | <BsBootstrapFill title="Bootstrap"size={29} color="#7311ec"/></p>
                         <button><Button target="_blank" href={calcLink} variant="success">Site</Button></button>
                         <button><Button target="_blank" href={calcrep} variant="secondary">Repositório</Button></button>
                         
@@ -170,10 +175,10 @@ function Projetos (){
                 {bc && (
                     <div className={styles.aba}>
                    
-                    <div onClick={() => setBc(!bc)} className={styles.close}><FaSignOutAlt size={30}/></div>
+                    <div onClick={() => setBc(!bc)} className={styles.close}><AiOutlineCloseCircle  size={30}/></div>
                     <div className={styles.containerDescricao}>
                         <h3>Buscar CEP</h3>
-                        <p>React | Axios | Bootstrap</p>
+                        <p><DiReact title="React" size={32} color="#0769ad"/> | <SiAxios title="Axios"size={29} color="#007ACC"/> | <BsBootstrapFill title="Bootstrap"size={29} color="#7311ec"/></p>
                         <button><Button target="_blank" href={bcLink} variant="success">Site</Button></button>
                         <button><Button target="_blank" href={bcrep} variant="secondary">Repositório</Button></button>
                         
@@ -193,10 +198,10 @@ function Projetos (){
             {td && (
                     <div className={styles.aba}>
                    
-                    <div onClick={() => setTd(!td)} className={styles.close}><FaSignOutAlt size={30}/></div>
+                    <div onClick={() => setTd(!td)} className={styles.close}><AiOutlineCloseCircle  size={30}/></div>
                     <div className={styles.containerDescricao}>
                         <h3>Todo List</h3>
-                        <p>React | Bootstrap | useEffect</p>
+                        <p><DiReact title="React" size={32} color="#0769ad"/> | <BsBootstrapFill title="Bootstrap"size={29} color="#7311ec" /></p>
                         <button><Button target="_blank" href={tdLink} variant="success">Site</Button></button>
                         <button><Button target="_blank" href={tdrep} variant="secondary">Repositório</Button></button>
                         
@@ -217,10 +222,10 @@ function Projetos (){
                 {jdv && (
                     <div className={styles.aba}>
                    
-                    <div onClick={() => setJdv(!jdv)} className={styles.close}><FaSignOutAlt size={30}/></div>
+                    <div onClick={() => setJdv(!jdv)} className={styles.close}><AiOutlineCloseCircle  size={30}/></div>
                     <div className={styles.containerDescricao}>
                         <h3>Jogo da velha</h3>
-                        <p>HTML5 | CSS3 | jQuery</p>
+                        <p><AiFillHtml5 title="HTML5" size={32} color="#f59519" /> | <IoLogoCss3 title="CSS3" size={32} color="#428ad6" /> | <DiJqueryLogo title="jQuery" size={32} color="#0769ad" /></p>
                         <button><Button target="_blank" href={jdvLink} variant="success">Site</Button></button>
                         <button><Button target="_blank" href={jdvrep} variant="secondary">Repositório</Button></button>
                         
@@ -240,10 +245,10 @@ function Projetos (){
                 {ab && (
                     <div className={styles.aba}>
                    
-                    <div onClick={() => setAb(!ab)} className={styles.close}><FaSignOutAlt size={30}/></div>
+                    <div onClick={() => setAb(!ab)} className={styles.close}><AiOutlineCloseCircle  size={30}/></div>
                     <div className={styles.containerDescricao}>
                         <h3>Agencia Bold</h3>
-                        <p>HTML5 | CSS3 | JavaScript</p>
+                        <p><AiFillHtml5 title="HTML5" size={32} color="#f59519" /> | <IoLogoCss3 title="CSS3" size={32} color="#428ad6" /> |  <IoLogoJavascript title="JavaScript" size={32} color="#F7DF1E"/></p>
                         <button><Button target="_blank" href={abLink} variant="success">Site</Button></button>
                         <button><Button target="_blank" href={abrep} variant="secondary">Repositório</Button></button>
                         
