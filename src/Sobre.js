@@ -28,11 +28,13 @@ return(
     e projetos.
     </p>
     <p>
-    Atualmente, tenho habilidades no front-end, com conhecimento em HTML, CSS e JAVASCRIPT,
-     incluindo suas bibliotecas, como JQUERY. Também estou trabalhando em projetos usando React
-      e consumindo APIs, e tenho habilidades em Python e C#. Eu adoro trabalhar em equipe,
-       acredito que compartilhar conhecimento é a melhor forma de crescermos juntos. Apesar
-     de ainda não ter experiência na área, tenho um método de estudo proativo e sou extremamente dedicado.
+    Atualmente, tenho habilidades no front-end, com conhecimento em HTML, CSS e JavaScript, incluindo 
+    suas bibliotecas, como jQuery. Além disso, tenho trabalhado em projetos utilizando o Node.js e o 
+    MongoDB, o que me permitiu trabalhar com o desenvolvimento de aplicativos web completos, desde o 
+    back-end até o front-end.Estou constantemente aprimorando minhas habilidades e conhecimentos, buscando 
+    aprender novas tecnologias e frameworks para me manter atualizado com as tendências do mercado. Recentemente, 
+    tenho me dedicado ao desenvolvimento de projetos com React, consumindo APIs e criando interfaces
+    de usuário interativas.
     </p>
     <p>
     Eu sou uma pessoa tranquila e confiável, que sabe agir bem sob pressão e que acredita
