@@ -6,8 +6,9 @@ import { AiFillHtml5 } from 'react-icons/ai';
 import { IoLogoCss3, IoLogoJavascript } from 'react-icons/io5';
 import { DiJqueryLogo, DiReact} from 'react-icons/di';
 import {BsBootstrapFill} from 'react-icons/bs'
-import { SiAxios} from 'react-icons/si';
+import { SiAxios, SiMongodb} from 'react-icons/si';
 import {TbApi} from 'react-icons/tb'
+import {FaNodeJs} from 'react-icons/fa'
 
 function Projetos (){
     const jdvLink = 'https://game-jogodavelha.netlify.app';
@@ -28,6 +29,8 @@ function Projetos (){
     const gifrep =  'https://github.com/MichelRLima/BuscarGIF'
     const pokLink = 'https://mypokedex-go.netlify.app'
     const pokrep =  'https://github.com/MichelRLima/Pokedex'
+    const portalLink = 'https://michelnews.herokuapp.com/'
+    const portalrep =  'https://github.com/MichelRLima/Portal-de-noticias'
     const [jdv, setJdv] = useState(false);
     const [bc, setBc] = useState(false);
     const [ab, setAb] = useState(false);
@@ -37,6 +40,7 @@ function Projetos (){
     const [coin, setCoin] = useState(false);
     const [gif, setGif] = useState(false);
     const [pok, setPok] = useState(false);
+    const [por, setPor] = useState(false);
     
   
         useEffect(() => {
@@ -48,11 +52,35 @@ function Projetos (){
     
     return(
         <>
+        
        
         <br/>
         <h2 className={styles.titulo}>Projetos</h2>
 
         <div className={styles.containerProjetos}>
+
+        <div className={styles.projeto}>
+            <h3>Portal de Notícias</h3>
+            <div onClick={() => setPor(!por)} className={styles.portal}></div>
+            {por && (
+                    <div className={styles.aba}>
+                   
+                    <div onClick={() => setPor(!por)} className={styles.close}><AiOutlineCloseCircle size={30}/></div>
+                    <div className={styles.containerDescricao}>
+                        <h3>Portal de Notícias</h3>
+                        <p><AiFillHtml5 title="HTML5" size={32} color="#f59519" /> | <IoLogoJavascript title="JavaScript" size={32} color="#F7DF1E"/> | <SiMongodb title="MongoDB"size={32} color="#47A248  "/> | <FaNodeJs title="Node.js"size={32} color="#339933 "/> </p>
+                        <button><Button target="_blank" href={portalLink} variant="success">Site</Button></button>
+                        <button><Button target="_blank" href={portalrep} variant="secondary">Repositório</Button></button>
+                        
+                    </div>
+                </div>
+                )}
+
+            </div>
+
+
+
+            <br/>
 
         <div className={styles.projeto}>
             <h3>Conversor de Moedas</h3>
