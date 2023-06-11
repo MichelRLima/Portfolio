@@ -29,7 +29,7 @@ function Projetos (){
     const gifrep =  'https://github.com/MichelRLima/BuscarGIF'
     const pokLink = 'https://mypokedex-go.netlify.app'
     const pokrep =  'https://github.com/MichelRLima/Pokedex'
-    const portalLink = 'https://michelnews.herokuapp.com/'
+    const portalLink = 'https://michelnews.herokuapp.com'
     const portalrep =  'https://github.com/MichelRLima/portal-de-noticia'
     const [jdv, setJdv] = useState(false);
     const [bc, setBc] = useState(false);
