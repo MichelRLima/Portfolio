@@ -20,6 +20,7 @@ return(
     </div>
     <br/>
     <p>
+
     Olá, eu sou Michel, um estudante de 24 anos de Análise e Desenvolvimento de Sistemas 
     que mora em Natal/RN e que está em busca de uma oportunidade no mercado de trabalho de 
     desenvolvimento web. Meu amor pela área começou em 2020, quando comecei a estudar por conta 
