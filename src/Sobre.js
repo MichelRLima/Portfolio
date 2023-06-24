@@ -9,15 +9,25 @@ function Sobre (){
     
 return(
     <>
+    <div className={styles.Perfil}>
+      <div className={styles.containerPerfil}></div>
+      <div className={styles.apresentacaoTitulo}>
+      <h3>Michel Rocha</h3>
+      <p>Desenvolvedor Web</p>
+      <div className={styles.redes}>
+        <a href='https://www.linkedin.com/in/michel-rocha-01b550210/' target='_blanck'><AiFillLinkedin color='#0e76a8' size={40} /></a>
+        <a href='https://github.com/MichelRLima' target='_blanck'><AiFillGithub color='#181717' size={40} /></a>
+      </div>
+      </div>
+    </div>
+  
+    
+    <div className={styles.containerTexto}>
     <div className={styles.containerTitulo}>
         <h1 className={styles.titulo}>Quem sou eu</h1>
     </div>
-    <div className={styles.containerTexto}>
-    <div className={styles.containerPerfil}></div>
-    <div className={styles.redes}>
-    <a href='https://www.linkedin.com/in/michel-rocha-01b550210/' target='_blanck'><AiFillLinkedin color='#0e76a8' size={40} /></a>
-    <a href='https://github.com/MichelRLima' target='_blanck'><AiFillGithub color='#181717' size={40} /></a>
-    </div>
+    
+   
     <br/>
     <p>
     Olá, eu sou Michel, um estudante de 24 anos de Análise e Desenvolvimento de Sistemas 

@@ -1,29 +1,83 @@
-.containerTitulo{
+.Perfil{
+    margin-top: 200px;
     width: 100%;
-    height: 20px;
+    height: 400px;
 
-    
+}
+
+.containerPerfil{
+    margin: 25px auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /* faz com que o elemento tenha um formato de círculo */
+    background-image: url('perfil.jpg');
+    background-size: cover; /* faz com que a imagem se ajuste ao tamanho do elemento */
+    background-position: center; /* faz com que a imagem fique centralizada */
+  }
+
+  .apresentacaoTitulo{
+    width: 100%;
+   text-align: center;
+   margin-top: 30px;
+   
+}
+
+.apresentacaoTitulo h3{
+    font-family:  'Open Sans', sans-serif;
+    color: rgb(29, 36, 88);
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.apresentacaoTitulo p{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 20px;
+    font-family:  'Open Sans', sans-serif;
+}
+
+
+.redes{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.redes a{
+ margin: 0 5px;
+}
+
+.containerTexto{
+    width: 90%;
+    margin:20px auto 200px;
+    padding: 30px;
+    border: 3px solid rgb(29, 36, 88);
+    border-radius: 10px;
+    transition: 1s;
     
 }
+
+
+.containerTitulo{
+    width: 100%;
+    height: 60px;
+    
+}
+
+
 
 .titulo{
     text-align: center;
     color: rgb(29, 36, 88);
-    margin:120px auto;
+    margin:0 auto 40px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 40px;
 }
 
-.containerTexto{
-    width: 90%;
-    margin:100px auto 200px;
-    padding: 30px;
-    border: 3px solid #b88474;
-    border-radius: 10px;
-    transition: 1s;
-    
-}
+
 
 .containerTexto:hover{
    border-color: #bd4520;
@@ -40,23 +94,4 @@
 }
 
 
-.containerPerfil{
-  margin: 25px auto;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%; /* faz com que o elemento tenha um formato de círculo */
-  background-image: url('perfil.jpg');
-  background-size: cover; /* faz com que a imagem se ajuste ao tamanho do elemento */
-  background-position: center; /* faz com que a imagem fique centralizada */
-}
 
-.redes{
-    width: 100%;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-}
-
-.redes a{
- margin: 0 5px;
-}
