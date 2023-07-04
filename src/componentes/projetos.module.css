@@ -1,30 +1,30 @@
-.titulo{
+.titulo {
     text-align: center;
     color: rgb(29, 36, 88);
-   margin-top: 100px;
-   margin-bottom: -30px;
+    margin-top: 100px;
+    margin-bottom: -30px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 40px;
 }
 
-.containerProjetos{
+.containerProjetos {
     width: 90%;
     display: flex;
     border: 1px solid #bd4520;
     flex-wrap: wrap;
-    margin:100px auto 200px;
+    margin: 100px auto 200px;
     border-radius: 10px;
 }
 
-.projeto{
-    
+.projeto {
+
     width: 680px;
     margin: 50px auto;
 
 }
 
-.projeto h3{
+.projeto h3 {
     text-align: center;
     border: 1px solid rgb(29, 36, 88);
     border-radius: 5px;
@@ -32,23 +32,23 @@
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 20px;
-    
+
 }
 
 /* ESTULO PARA JOGO DA VELHA */
-.jogoDaVelha{
-width: 100%;
-height: 400px;
-background-image: url('../images/jogodavelha.JPG');
-background-size: contain;
-background-repeat: no-repeat;
-cursor: pointer;
+.jogoDaVelha {
+    width: 100%;
+    height: 400px;
+    background-image: url('../images/jogodavelha.JPG');
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
 
 
 }
 
 
-.aba{
+.aba {
     border: 1px solid #bd4520;
     width: 500px;
     height: 300px;
@@ -56,19 +56,22 @@ cursor: pointer;
     position: fixed;
     top: 50%;
     left: 50%;
-    margin-top: -150px; /* metade da altura */
-    margin-left: -250px; /* metade da largura */
-    -webkit-box-shadow: 9px 11px 5px -3px rgba(0,0,0,0.75);
-    -moz-box-shadow: 9px 11px 5px -3px rgba(0,0,0,0.75);
-    box-shadow: 9px 11px 5px -3px rgba(0,0,0,0.75);
+    margin-top: -150px;
+    /* metade da altura */
+    margin-left: -250px;
+    /* metade da largura */
+    -webkit-box-shadow: 9px 11px 5px -3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 9px 11px 5px -3px rgba(0, 0, 0, 0.75);
+    box-shadow: 9px 11px 5px -3px rgba(0, 0, 0, 0.75);
     border-radius: 5px;
- 
-    z-index: 9999; /* define um valor alto de z-index para a div */
-   
+
+    z-index: 9999;
+    /* define um valor alto de z-index para a div */
+
 }
 
 
-.close{
+.close {
     width: 30px;
     height: 30px;
     margin-left: auto;
@@ -76,96 +79,106 @@ cursor: pointer;
     border-radius: 5px;
 }
 
-.close svg{
+.close svg {
     cursor: pointer;
     background-color: #efefef;
     border-radius: 5px;
-    
-    
+
+
 }
 
-.aba h3{
+.aba h3 {
     border-radius: 10px;
 }
 
+.chat {
+    width: 100%;
+    height: 400px;
+    background-image: url('../images/Chat.PNG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
 
-.conversor{
+}
+
+
+.conversor {
     width: 100%;
     height: 400px;
     background-image: url('../images/CoinToReal.JPG');
     background-size: cover;
     background-repeat: no-repeat;
     cursor: pointer;
-        
+
 }
 
-.gif{
+.gif {
     width: 100%;
     height: 400px;
     background-image: url('../images/gif.JPG');
     background-size: cover;
     background-repeat: no-repeat;
     cursor: pointer;
-        
+
 }
 
-.pok{
+.pok {
     width: 100%;
     height: 400px;
     background-image: url('../images/pokedex.JPG');
     background-size: cover;
     background-repeat: no-repeat;
     cursor: pointer;
-        
+
 }
 
 
 /* FINAL ESTILO JOGO DA VELHA */
 
 /* iNICIO ESTILO BUSCAR CEP*/
-.buscarCep{
+.buscarCep {
     width: 100%;
     height: 400px;
     background-image: url('../images/buscarCEP.JPG');
     background-size: cover;
     background-repeat: no-repeat;
     cursor: pointer;
-    
-    }
-   
+
+}
+
 
 /*FINAL BUSCAR CEP*/
 
 /* iNICIO ESTILO agencia bold*/
-.agenciaBold{
+.agenciaBold {
     width: 100%;
     height: 400px;
     background-image: url('../images/agenciabold.JPG');
     background-size: contain;
     background-repeat: no-repeat;
     cursor: pointer;
-    
-    }
-   
+
+}
+
 
 /*FINAL agencia bold*/
 
 /* iNICIO ESTILO calculadora*/
-.calculadora{
+.calculadora {
     width: 100%;
     height: 400px;
     background-image: url('../images/calculadora.JPG');
     background-size: contain;
     background-repeat: no-repeat;
     cursor: pointer;
-    
-    }
-   
+
+}
+
 
 /*FINAL calculadora*/
 /* iNICIO ESTILO TODO LIST*/
 
-.todoList{
+.todoList {
     width: 100%;
     height: 400px;
     background-image: url('../images/todolist.JPG');
@@ -177,232 +190,267 @@ cursor: pointer;
 /*FINAL TODOLIST*/
 
 /*INICIO ESTULO RESTAURANTE*/
-.restaurante{
+.restaurante {
     width: 100%;
     height: 400px;
     background-image: url('../images/restaurante.JPG');
     background-size: cover;
     background-repeat: no-repeat;
     cursor: pointer;
-        
+
 }
 
 /*final restaurante */
 
 /*INICIO ESTULO RESTAURANTE*/
-.portal{
+.portal {
     width: 100%;
     height: 400px;
     background-image: url('../images/michelnews.JPG');
     background-size: cover;
     background-repeat: no-repeat;
     cursor: pointer;
-        
+
 }
 
 /*final restaurante */
-.containerDescricao p{
+.containerDescricao p {
     margin: 20px;
     text-align: center;
 }
 
-.containerDescricao button{
+.containerDescricao button {
     display: block;
     margin: 30px auto;
     border: none;
 }
 
 /*efeito para aumentar a tela quando passar o mouse por cima*/
-.jogoDaVelha, .buscarCep, .todoList, .restaurante, .agenciaBold, .calculadora, .conversor, .gif, .pok, .portal{
+.jogoDaVelha,
+.buscarCep,
+.todoList,
+.restaurante,
+.agenciaBold,
+.calculadora,
+.conversor,
+.gif,
+.pok,
+.portal,
+.chat {
     transition: transform 0.3s ease-in-out;
 }
 
-.jogoDaVelha:hover{
+.jogoDaVelha:hover {
     transform: scale(1.2);
 }
 
-.buscarCep:hover{
+.buscarCep:hover {
     transform: scale(1.2);
 }
 
-.todoList:hover{
-    transform: scale(1.2);
-}
-.restaurante:hover{
+.todoList:hover {
     transform: scale(1.2);
 }
 
-.agenciaBold:hover{
+.restaurante:hover {
     transform: scale(1.2);
 }
 
-.calculadora:hover{
-    transform: scale(1.2);
-}
-.conversor:hover{
+.agenciaBold:hover {
     transform: scale(1.2);
 }
 
-.gif:hover{
+.calculadora:hover {
     transform: scale(1.2);
 }
 
-.pok:hover{
+.conversor:hover {
     transform: scale(1.2);
 }
 
-.portal:hover{
+.gif:hover {
     transform: scale(1.2);
 }
 
-@media screen and (max-width: 768px){
-    .projeto{
-   
+.pok:hover {
+    transform: scale(1.2);
+}
+
+.portal:hover {
+    transform: scale(1.2);
+}
+
+.chat:hover {
+    transform: scale(1.2);
+}
+
+@media screen and (max-width: 768px) {
+    .projeto {
+
         width: 250px;
-        
-    
-   
+
+
+
     }
-    .jogoDaVelha{
+
+    .jogoDaVelha {
         width: 100%;
         height: 150px;
     }
-    .aba{
+
+    .aba {
         width: 100%;
         height: 260px;
-        margin-top: -125px; /* metade da altura */
-        margin-left: -50%; /* metade da largura */
+        margin-top: -125px;
+        /* metade da altura */
+        margin-left: -50%;
+        /* metade da largura */
     }
 
 
 
-    .buscarCep{
-        width: 100%;
-        height: 150px;
-    }
-    
-
-    .agenciaBold{
-        width: 100%;
-        height: 150px;
-    }
-    
-
-    .todoList{
-        width: 100%;
-        height: 150px;
-    }
-    
-
-    .restaurante{
+    .buscarCep {
         width: 100%;
         height: 150px;
     }
 
-    .calculadora{
+
+    .agenciaBold {
         width: 100%;
         height: 150px;
     }
 
-    .conversor{
+
+    .todoList {
         width: 100%;
         height: 150px;
     }
 
-    .gif{
+
+    .restaurante {
         width: 100%;
         height: 150px;
     }
 
-    .pok{
+    .calculadora {
         width: 100%;
         height: 150px;
     }
-    .portal{
-        width: 100%;
-        height: 150px;
-    }
-    
-   
-  }
 
-  @media screen and (max-width: 900px) and (min-width: 768px){
-    .projeto{
-  
-    width: 500px;
-    height: 300px;
-    
-   
+    .conversor {
+        width: 100%;
+        height: 150px;
     }
-    .jogoDaVelha{
+
+    .gif {
+        width: 100%;
+        height: 150px;
+    }
+
+    .pok {
+        width: 100%;
+        height: 150px;
+    }
+
+    .portal {
+        width: 100%;
+        height: 150px;
+    }
+
+    .chat {
+        width: 100%;
+        height: 150px;
+    }
+
+
+}
+
+@media screen and (max-width: 900px) and (min-width: 768px) {
+    .projeto {
+
+        width: 500px;
+        height: 300px;
+
+
+    }
+
+    .jogoDaVelha {
         width: 100%;
         height: 300px;
     }
 
-    .buscarCep{
+    .buscarCep {
         width: 100%;
         height: 300px;
     }
-    .aba{
+
+    .aba {
         width: 400px;
         height: 300px;
-        margin-top: -200px; /* metade da altura */
-        margin-left: -200px; /* metade da largura */
+        margin-top: -200px;
+        /* metade da altura */
+        margin-left: -200px;
+        /* metade da largura */
 
     }
 
-    
 
-    .todoList{
+
+    .todoList {
         width: 100%;
         height: 300px;
     }
 
-    
 
-    .restaurante{
+
+    .restaurante {
         width: 100%;
         height: 300px;
     }
 
-    .calculadora{
+    .calculadora {
         width: 100%;
         height: 300px;
     }
 
-    .conversor{
+    .conversor {
         width: 100%;
         height: 300px;
     }
 
-    .gif{
+    .gif {
         width: 100%;
         height: 300px;
     }
 
-    .pok{
+    .pok {
         width: 100%;
         height: 300px;
     }
 
-    .portal{
+    .portal {
         width: 100%;
         height: 300px;
     }
-    
-    
-    
-  
 
-   
-  }
+    .chat {
+        width: 100%;
+        height: 300px;
+    }
 
-  @media screen and (max-width: 1600px){
-   
-       .containerProjetos{
+
+
+
+
+
+
+}
+
+@media screen and (max-width: 1600px) {
+
+    .containerProjetos {
         display: block;
-       }
-      
-       
-  }
+    }
 
+
+}
