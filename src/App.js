@@ -11,7 +11,9 @@ import { DiJqueryLogo, DiReact, DiPython } from 'react-icons/di';
 import { SiCsharp, SiAxios, SiMongodb, SiSocketdotio } from 'react-icons/si';
 import { FaBars, FaNodeJs, FaAws } from 'react-icons/fa'
 import { BsBootstrapFill } from 'react-icons/bs'
+
 import { useState } from "react";
+
 
 function App() {
   const [showDiv, setShowDiv] = useState(false);

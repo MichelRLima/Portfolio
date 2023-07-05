@@ -1,5 +1,7 @@
 import styles from './sobre.module.css'
 import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
+import { BiTime } from 'react-icons/bi';
+
 import { useEffect } from 'react';
 function Sobre() {
   useEffect(() => {
@@ -123,6 +125,7 @@ function Sobre() {
           <a className={styles.linkCertificados} target='_blank' rel="noreferrer" href="https://michelrocha-dev.netlify.app">
             <div className={styles.certificado}>
               <h3 className={styles.tituloCeriticado}>TECNÓLOGO EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS</h3>
+              <BiTime size={32} color='#4e4e4e' />
               <div className={styles.imageGraduacao}><p>Cursando...</p></div>
             </div>
 

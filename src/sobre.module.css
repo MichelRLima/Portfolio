@@ -115,6 +115,8 @@
 }
 
 
+
+
 .containerCertificados {
     display: flex;
     flex-wrap: wrap;
@@ -128,6 +130,12 @@
     margin: 20px 10px;
     border-radius: 10px;
 
+
+}
+
+.certificado svg {
+    margin-left: 47%;
+    margin-top: 30px;
 }
 
 .certificado:hover {
@@ -157,7 +165,7 @@
 }
 
 .imageGraduacao p {
-
+    margin-top: -50px;
     text-align: center;
     color: #4e4e4e;
 }
