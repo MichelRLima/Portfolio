@@ -114,6 +114,8 @@ function Sobre() {
 
         <br />
         <br />
+        <br />
+        <br />
 
         <h3 className={styles.tituloCategoria}>Graduação</h3>
         <div className={styles.containerCertificados}>
