@@ -8,7 +8,7 @@ import { DiJqueryLogo, DiReact } from 'react-icons/di';
 import { BsBootstrapFill } from 'react-icons/bs'
 import { SiAxios, SiMongodb, SiSocketdotio } from 'react-icons/si';
 import { TbApi } from 'react-icons/tb'
-import { FaNodeJs } from 'react-icons/fa'
+import { FaNodeJs, FaAws } from 'react-icons/fa'
 
 
 function Projetos() {
@@ -73,7 +73,7 @@ function Projetos() {
                             <div onClick={() => setPor(!por)} className={styles.close}><AiOutlineCloseCircle size={30} /></div>
                             <div className={styles.containerDescricao}>
                                 <h3>Portal de Notícias</h3>
-                                <p><AiFillHtml5 title='HTML5' size={32} color="#f59519" /> | <IoLogoJavascript title="JavaScript" size={32} color="#F7DF1E" /> | <SiMongodb title="MongoDB" size={32} color="#47A248  " /> | <FaNodeJs title="Node.js" size={32} color="#339933 " /> </p>
+                                <p><AiFillHtml5 title='HTML5' size={32} color="#f59519" /> | <IoLogoJavascript title="JavaScript" size={32} color="#F7DF1E" /> | <SiMongodb title="MongoDB" size={32} color="#47A248  " /> | <FaNodeJs title="Node.js" size={32} color="#339933 " /> | <FaAws title="AWS" size={32} color=" #FF9900  " /></p>
 
 
                                 <button><Button target="_blank" href={portalLink} variant="success">Site</Button></button>
@@ -97,7 +97,7 @@ function Projetos() {
                             <div onClick={() => setChat(!chat)} className={styles.close}><AiOutlineCloseCircle size={30} /></div>
                             <div className={styles.containerDescricao}>
                                 <h3>Chat em grupo</h3>
-                                <p><AiFillHtml5 title="HTML5" size={32} color="#f59519" /> | <SiSocketdotio title="SocketIO" size={30} color="#010101" /> | <IoLogoCss3 title="CSS3" size={32} color="#428ad6" /> </p>
+                                <p><AiFillHtml5 title="HTML5" size={32} color="#f59519" /> | <SiSocketdotio title="SocketIO" size={30} color="#010101" /> | <FaNodeJs title="Node.js" size={32} color="#339933 " /> | <IoLogoCss3 title="CSS3" size={32} color="#428ad6" /> | <FaAws title="AWS" size={32} color=" #FF9900  " />  </p>
                                 <button><Button target="_blank" href={chatLink} variant="success">Site</Button></button>
                                 <button><Button target="_blank" href={chatrep} variant="secondary">Repositório</Button></button>
 

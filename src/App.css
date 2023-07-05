@@ -1,27 +1,28 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   background-color: #efefef;
 }
-.containerTitulo{
+
+.containerTitulo {
   width: 100%;
   height: 20px;
 
-  
-  
+
+
 }
 
-.titulo{
+.titulo {
   text-align: center;
   color: rgb(29, 36, 88);
-  margin:120px auto;
+  margin: 120px auto;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 40px;
 }
 
-.container-menu{
+.container-menu {
   display: flex;
   width: 100%;
   height: 100px;
@@ -29,11 +30,12 @@
   background-color: #bd4520;
   position: fixed;
   top: 0;
-  z-index:997
-  
+  z-index: 997;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px
 }
 
-.logo{
+.logo {
   margin-top: -30px;
   margin-left: 10px;
   margin-right: -150px;
@@ -48,7 +50,7 @@
 
 
 
-.containerMobile{
+.containerMobile {
   width: 32px;
   height: 32px;
   margin-top: 30px;
@@ -56,24 +58,21 @@
   margin-right: 30px;
   display: none;
   position: relative;
-  z-index:999
-  
-  
+  z-index: 999
 }
 
 
 
-.menuMobile{
+.menuMobile {
   width: 100%;
   height: 100px;
   position: fixed;
   margin-top: 100px;
-  z-index:999
-
+  z-index: 999
 }
 
 
-.menuMobile a{
+.menuMobile a {
   display: block;
   border-bottom: 1px solid black;
   text-align: center;
@@ -85,26 +84,27 @@
   padding: 2px;
 }
 
-.menuMobile a:hover{
+.menuMobile a:hover {
   border-bottom: 1px solid #bd4520;
 }
 
 
 
-.containerMobile svg{
-  
+.containerMobile svg {
+
   background-color: #bd4520;
   color: #efefef;
   cursor: pointer;
 }
-.container-menu .container-button{
+
+.container-menu .container-button {
   width: 290px;
   margin: auto auto;
   background-color: #bd4520
 }
 
 
-.container-menu .container-button a{
+.container-menu .container-button a {
   margin: 0 13px;
   background-color: #bd4520;
   text-decoration: none;
@@ -115,22 +115,23 @@
 
 
 }
-.container-menu .container-button a:hover{
+
+.container-menu .container-button a:hover {
   border-bottom: 3px solid #efefef;
 }
 
 
-.containerFooter{
+.containerFooter {
   margin: 0 auto;
   width: 100%;
   height: 150px;
   background-color: #bd4520;
-  
+
   bottom: 0;
   text-align: center;
 }
 
-.icones{
+.icones {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -139,33 +140,35 @@
   margin: 30px auto;
   text-align: center;
   background-color: #bd4520;
-  
+
 }
-h4{
+
+h4 {
   padding-top: 20px;
   background-color: #bd4520;
   color: #efefef;
-  
-  
+
+
 }
-.icones svg{
+
+.icones svg {
   margin: 10px 10px;
   background-color: #bd4520;
 }
 
 
 
-@media screen and (max-width: 768px){
-  .container-button{
+@media screen and (max-width: 768px) {
+  .container-button {
     display: none;
   }
-  .containerMobile{
+
+  .containerMobile {
     display: block;
-    
+
   }
-  
 
-  
-  
+
+
+
 }
-

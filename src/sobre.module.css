@@ -1,43 +1,46 @@
-.Perfil{
+.Perfil {
     margin-top: 200px;
     width: 100%;
     height: 400px;
 
 }
 
-.containerPerfil{
+.containerPerfil {
     margin: 25px auto;
     width: 200px;
     height: 200px;
-    border-radius: 50%; /* faz com que o elemento tenha um formato de círculo */
+    border-radius: 50%;
+    /* faz com que o elemento tenha um formato de círculo */
     background-image: url('perfil.jpg');
-    background-size: cover; /* faz com que a imagem se ajuste ao tamanho do elemento */
-    background-position: center; /* faz com que a imagem fique centralizada */
-  }
-
-  .apresentacaoTitulo{
-    width: 100%;
-   text-align: center;
-   margin-top: 30px;
-   
+    background-size: cover;
+    /* faz com que a imagem se ajuste ao tamanho do elemento */
+    background-position: center;
+    /* faz com que a imagem fique centralizada */
 }
 
-.apresentacaoTitulo h3{
-    font-family:  'Open Sans', sans-serif;
+.apresentacaoTitulo {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.apresentacaoTitulo h3 {
+    font-family: 'Open Sans', sans-serif;
     color: rgb(29, 36, 88);
     font-weight: bold;
     font-size: 40px;
 }
 
-.apresentacaoTitulo p{
+.apresentacaoTitulo p {
     text-align: center;
     margin: 0 auto;
     font-size: 20px;
-    font-family:  'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
-.redes{
+.redes {
     width: 100%;
     height: 40px;
     display: flex;
@@ -45,53 +48,196 @@
     margin-top: 20px;
 }
 
-.redes a{
- margin: 0 5px;
+.redes a {
+    margin: 0 5px;
 }
 
-.containerTexto{
+.containerTexto {
     width: 90%;
-    margin:20px auto 200px;
+    margin: 20px auto 200px;
     padding: 30px;
     border: 3px solid rgb(29, 36, 88);
     border-radius: 10px;
     transition: 1s;
-    
+
 }
 
 
-.containerTitulo{
+.containerTitulo {
     width: 100%;
     height: 60px;
-    
+
 }
 
 
 
-.titulo{
+.titulo {
     text-align: center;
     color: rgb(29, 36, 88);
-    margin:0 auto 40px;
+    margin: 0 auto 40px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 40px;
+
+}
+
+.tituloCategoria {
+    text-align: center;
+    color: rgb(29, 36, 88);
+    margin: 0 auto 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+
 }
 
 
 
-.containerTexto:hover{
-   border-color: #bd4520;
+.containerTexto:hover {
+    border-color: #bd4520;
+
+
 }
 
-.containerTexto p{
+
+
+
+
+
+.containerTexto p {
     text-indent: 20px;
     margin: 20px auto;
     font-family: 'Open Sans Light', sans-serif;
     font-weight: 300;
     text-align: justify;
-    
-    
+
+
 }
 
 
+.containerCertificados {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
+.certificado {
+    width: 300px;
+    height: 300px;
+    border: 2px solid rgb(29, 36, 88);
+    margin: 20px 10px;
+    border-radius: 10px;
+
+}
+
+.certificado:hover {
+    border-color: #bd4520;
+
+
+}
+
+.linkCertificados {
+    text-decoration: none;
+}
+
+.tituloCeriticado {
+    color: rgb(29, 36, 88);
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+
+}
+
+.imageGraduacao {
+    margin: 60px auto;
+    width: 200px;
+    height: 100px;
+
+}
+
+.imageGraduacao p {
+
+    text-align: center;
+    color: #4e4e4e;
+}
+
+.imageFront1 {
+    margin: 40px auto;
+    width: 200px;
+    height: 100px;
+    background-image: url(certificados/front1.PNG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.imageFront2 {
+    margin: 40px auto;
+    width: 200px;
+    height: 100px;
+    background-image: url(certificados/front2.PNG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.imageFront3 {
+    margin: 40px auto;
+    width: 200px;
+    height: 100px;
+    background-image: url(certificados/front3.PNG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.imageBack1 {
+    margin: 40px auto;
+    width: 200px;
+    height: 100px;
+    background-image: url(certificados/back1.PNG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.imageBack2 {
+    margin: 40px auto;
+    width: 200px;
+    height: 100px;
+    background-image: url(certificados/back2.PNG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.imageBack3 {
+    margin: 40px auto;
+    width: 200px;
+    height: 100px;
+    background-image: url(certificados/back3.PNG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.imageOutros1 {
+    margin: 40px auto;
+    width: 200px;
+    height: 100px;
+    background-image: url(certificados/outros1.PNG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.imageOutros2 {
+    margin: 40px auto;
+    width: 200px;
+    height: 100px;
+    background-image: url(certificados/outros2.PNG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}

@@ -7,6 +7,15 @@ function Sobre() {
     window.scrollTo(0, 0);
   }, []);
 
+  //links dos certificados
+  const front1 = "https://drive.google.com/file/d/1_ppEMxNPUoH1RZ5uanuEwCly4nDBfDg-/view?usp=sharing"
+  const front2 = "https://drive.google.com/file/d/1VNJrATqbV7tW6HjNoygX941wNBl2AxAj/view?usp=sharing"
+  const front3 = "https://drive.google.com/file/d/1j2WPJmNy3ElB4pBOvjKX2v9NzKLdrFT4/view?usp=sharing"
+  const back1 = "https://drive.google.com/file/d/1QK4RujkrgVg8Q5dirR3mLFGXq4E-b-Ev/view?usp=sharing"
+  const back2 = "https://drive.google.com/file/d/1-ndPnqZkeI5DNtU0bjdhCldk_6DszZIx/view?usp=sharing"
+  const back3 = "https://drive.google.com/file/d/1qzPx-UTmWKl6lgLiWg2d4CajtSVvPJFk/view?usp=sharing"
+  const outros1 = "https://drive.google.com/file/d/1TP5NtUlAbPZHWyARD92bOkqru9tyy85z/view?usp=sharing"
+  const outros2 = "https://drive.google.com/file/d/1vwwhiLIPKLqbnkFSJil_v-ERLF0Lt8zi/view?usp=sharing"
   return (
     <>
       <div className={styles.Perfil}>
@@ -90,6 +99,124 @@ function Sobre() {
           explorar suas diversas aplicações, desde o desenvolvimento web até a ciência de dados. Com Python, estou
           ampliando minhas habilidades e conhecimentos, buscando entender sua sintaxe elegante e suas vastas bibliotecas
           e frameworks, como Django.</p>
+
+
+
+
+
+      </div>
+
+      <div className={styles.containerTexto}>
+        <div className={styles.containerTitulo}>
+          <h1 className={styles.titulo}>Diplomas e certificados</h1>
+        </div>
+
+
+        <br />
+        <br />
+
+        <h3 className={styles.tituloCategoria}>Graduação</h3>
+        <div className={styles.containerCertificados}>
+
+          <a className={styles.linkCertificados} target='_blank' rel="noreferrer" href="https://michelrocha-dev.netlify.app">
+            <div className={styles.certificado}>
+              <h3 className={styles.tituloCeriticado}>TECNÓLOGO EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS</h3>
+              <div className={styles.imageGraduacao}><p>Cursando...</p></div>
+            </div>
+
+          </a>
+
+
+        </div>
+
+        <br />
+        <br />
+        <br />
+
+
+        <h3 className={styles.tituloCategoria}>Front-end</h3>
+        <div className={styles.containerCertificados}>
+
+          <a className={styles.linkCertificados} target='_blank' rel="noreferrer" href={front1}>
+            <div className={styles.certificado}>
+              <h3 className={styles.tituloCeriticado}>CURSO WEBMASTER FRONT-END COMPLETO</h3>
+              <div className={styles.imageFront1}></div>
+            </div>
+
+          </a>
+          <a className={styles.linkCertificados} target='_blank' rel="noreferrer" href={front2}>
+            <div className={styles.certificado}>
+              <h3 className={styles.tituloCeriticado}>CURSO FRONT-END COMPLETO 2.0</h3>
+              <div className={styles.imageFront2}></div>
+            </div>
+
+          </a>
+          <a className={styles.linkCertificados} target='_blank' rel="noreferrer" href={front3}>
+            <div className={styles.certificado}>
+              <h3 className={styles.tituloCeriticado}>CURSO JAVASCRIPT COMPLETO</h3>
+              <div className={styles.imageFront3}></div>
+            </div>
+
+          </a>
+        </div>
+
+        <br />
+        <br />
+        <br />
+
+        <h3 className={styles.tituloCategoria}>Back-end</h3>
+        <div className={styles.containerCertificados}>
+
+          <a className={styles.linkCertificados} target='_blank' rel="noreferrer" href={back1}>
+            <div className={styles.certificado}>
+              <h3 className={styles.tituloCeriticado}>CURSO NODEJS</h3>
+              <div className={styles.imageBack1}></div>
+            </div>
+
+          </a>
+
+          <a className={styles.linkCertificados} target='_blank' rel="noreferrer" href={back2}>
+            <div className={styles.certificado}>
+              <h3 className={styles.tituloCeriticado}>PROGRAMADOR WEB</h3>
+              <div className={styles.imageBack2}></div>
+            </div>
+
+          </a>
+
+          <a className={styles.linkCertificados} target='_blank' rel="noreferrer" href={back3}>
+            <div className={styles.certificado}>
+              <h3 className={styles.tituloCeriticado}>PROGRAMMING BASICS</h3>
+              <div className={styles.imageBack3}></div>
+            </div>
+
+          </a>
+
+        </div>
+        <br />
+        <br />
+        <br />
+
+        <h3 className={styles.tituloCategoria}>Outros certificados</h3>
+        <div className={styles.containerCertificados}>
+
+          <a className={styles.linkCertificados} target='_blank' rel="noreferrer" href={outros1}>
+            <div className={styles.certificado}>
+              <h3 className={styles.tituloCeriticado}>CURSO DE LÓGICA DE PROGRAMAÇÃO</h3>
+              <div className={styles.imageOutros1}></div>
+            </div>
+
+          </a>
+
+          <a className={styles.linkCertificados} target='_blank' rel="noreferrer" href={outros2}>
+            <div className={styles.certificado}>
+              <h3 className={styles.tituloCeriticado}>CERTIFIQUE-SE EM INTELIGENCIA ARTIFICAL</h3>
+              <div className={styles.imageOutros2}></div>
+            </div>
+
+          </a>
+
+
+        </div>
 
 
 
