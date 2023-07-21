@@ -9,7 +9,7 @@
 }
 
 .containerProjetos {
-    width: 90%;
+
     display: flex;
     border: 1px solid #bd4520;
     flex-wrap: wrap;
@@ -528,4 +528,10 @@
     }
 
 
+}
+
+@media screen and (min-width: 1600px) {
+    .containerProjetos {
+        margin: 100px 40px 200px;
+    }
 }
