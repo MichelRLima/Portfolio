@@ -66,7 +66,17 @@ function Projetos() {
                 <div className={styles.projeto}>
                     <h3>Portal de Notícias</h3>
 
-                    <div onClick={() => setPor(!por)} className={styles.portal}></div>
+                    <div onClick={() => setPor(!por)} className={styles.portal}>
+                        {/* Mensagem que será exibida quando o mouse estiver sobre a div */}
+                        <div className={styles.mensagem}> <p>Esse projeto é um servidor web construído
+                            em Node.js usando o framework Express e o banco de dados MongoDB. O objetivo desse
+                            projeto é criar um blog de notícias chamado "Michel News". O arquivo index.js é o
+                            ponto de entrada do servidor. Nele, são importados os módulos necessários, incluindo o
+                            Express, o Mongoose (para lidar com o MongoDB), o Body Parser (para analisar os corpos
+                            das requisições HTTP), e o Fileupload (para lidar com uploads de arquivos). Além disso,
+                            é configurado um sistema de sessão para autenticação e é feita a conexão com o banco de dados
+                            MongoDB hospedado no serviço MongoDB Atlas.</p></div>
+                    </div>
                     {por && (
                         <div className={styles.aba}>
 
@@ -90,7 +100,15 @@ function Projetos() {
 
                 <div className={styles.projeto}>
                     <h3>Chat em grupo</h3>
-                    <div onClick={() => setChat(!chat)} className={styles.chat}></div>
+                    <div onClick={() => setChat(!chat)} className={styles.chat}>
+                        <div className={styles.mensagem}><p>Esse projeto é chat em grupo em
+                            tempo real construído com Node.js, Express e Socket.IO. O objetivo é
+                            permitir que os usuários se conectem ao chat, conversem entre si e recebam
+                            notificações de novas mensagens. O arquivo index.js é o arquivo principal do servidor.
+                            Nele, são criados um servidor HTTP utilizando o módulo http e um servidor WebSocket
+                            utilizando o módulo socket.io. Os usuários conectados são armazenados em duas arrays,
+                            usuarios e socketIds, para rastrear os nomes dos usuários e seus respectivos IDs de socket.</p></div>
+                    </div>
                     {chat && (
                         <div className={styles.aba}>
 
@@ -113,7 +131,12 @@ function Projetos() {
 
                 <div className={styles.projeto}>
                     <h3>Conversor de Moedas</h3>
-                    <div onClick={() => setCoin(!coin)} className={styles.conversor}></div>
+                    <div onClick={() => setCoin(!coin)} className={styles.conversor}>
+                        <div className={styles.mensagem}><p>O projeto Coin to Real permite
+                            aos usuários converter valores de moedas estrangeiras para a moeda
+                            brasileira (BRL - Real). A aplicação utiliza a biblioteca React para
+                            construir a interface do usuário (UI) de forma interativa e responsiva.</p></div>
+                    </div>
                     {coin && (
                         <div className={styles.aba}>
 
@@ -136,7 +159,13 @@ function Projetos() {
 
                 <div className={styles.projeto}>
                     <h3>Pokedex</h3>
-                    <div onClick={() => setPok(!pok)} className={styles.pok}></div>
+                    <div onClick={() => setPok(!pok)} className={styles.pok}>
+                        <div className={styles.mensagem}><p>A pokedex é Essa aplicação
+                            permite aos usuários buscar informações sobre diferentes Pokémon
+                            usando a API PokeAPI (https://pokeapi.co/). A interface é construída
+                            usando a biblioteca React, proporcionando uma experiência de usuário
+                            interativa e amigável.</p></div>
+                    </div>
                     {pok && (
                         <div className={styles.aba}>
 
@@ -159,7 +188,11 @@ function Projetos() {
 
                 <div className={styles.projeto}>
                     <h3>Buscar GIF</h3>
-                    <div onClick={() => setGif(!gif)} className={styles.gif}></div>
+                    <div onClick={() => setGif(!gif)} className={styles.gif}>
+                        <div className={styles.mensagem}><p>Esse projeto é uma aplicação web que
+                            permite aos usuários buscar e compartilhar GIFs usando a API do Giphy.
+                            Com ele é possivel buscar os GIFs e compartilhar no WhatsApp.</p></div>
+                    </div>
                     {gif && (
                         <div className={styles.aba}>
 
@@ -182,7 +215,17 @@ function Projetos() {
 
                 <div className={styles.projeto}>
                     <h3>Cardápio / Restaurante</h3>
-                    <div onClick={() => setRt(!rt)} className={styles.restaurante}></div>
+                    <div onClick={() => setRt(!rt)} className={styles.restaurante}>
+                        <div className={styles.mensagem}><p>O aplicativo web chamado "Hungry Chef"
+                            permite que os usuários façam um pedido de alimentos e bebidas e o enviem
+                            via WhatsApp. Quando o usuário preenche todas as informações necessárias na
+                            página de pedido e clica no botão "Enviar", o aplicativo gera um pedido completo que
+                            inclui a lista de itens pedidos, informações de endereço e forma de pagamento.
+                            Em seguida, o aplicativo utiliza um componente chamado "WhatsappLink" para criar um
+                            link que pode ser usado para abrir o WhatsApp com uma mensagem contendo o pedido.
+                            Dessa forma, o usuário pode revisar o pedido e enviar o pedido para o número de WhatsApp
+                            do estabelecimento.</p></div>
+                    </div>
                     {rt && (
                         <div className={styles.aba}>
 
@@ -205,7 +248,12 @@ function Projetos() {
 
                 <div className={styles.projeto}>
                     <h3>Calculadora</h3>
-                    <div onClick={() => setCalc(!calc)} className={styles.calculadora}></div>
+                    <div onClick={() => setCalc(!calc)} className={styles.calculadora}>
+                        <div className={styles.mensagem}><p>Esse projeto é uma calculadora simples
+                            desenvolvida como um aplicativo web usando a biblioteca React.
+                            A calculadora permite ao usuário realizar operações matemáticas básicas,
+                            como adição, subtração, multiplicação e divisão.</p></div>
+                    </div>
                     {calc && (
                         <div className={styles.aba}>
 
@@ -228,7 +276,11 @@ function Projetos() {
 
                 <div className={styles.projeto}>
                     <h3>Buscar CEP</h3>
-                    <div onClick={() => setBc(!bc)} className={styles.buscarCep}></div>
+                    <div onClick={() => setBc(!bc)} className={styles.buscarCep}>
+                        <div className={styles.mensagem}><p>Esse projeto é uma aplicação web para
+                            buscar informações de um endereço a partir de um CEP fornecido pelo usuário.
+                            O projeto foi desenvolvido utilizando a biblioteca React e a ferramenta de estilo Bootstrap.</p></div>
+                    </div>
                     {bc && (
                         <div className={styles.aba}>
 
@@ -250,7 +302,10 @@ function Projetos() {
                 <div className={styles.projeto}>
 
                     <h3>Todo List</h3>
-                    <div onClick={() => setTd(!td)} className={styles.todoList}></div>
+                    <div onClick={() => setTd(!td)} className={styles.todoList}>
+                        <div className={styles.mensagem}><p>Todo List é uma aplicação de lista de tarefas desenvolvida em React. Nessa aplicação,
+                            os usuários podem adicionar tarefas, marcar tarefas como concluídas e remover tarefas da lista.</p></div>
+                    </div>
 
                     {td && (
                         <div className={styles.aba}>
@@ -274,7 +329,11 @@ function Projetos() {
 
                 <div className={styles.projeto}>
                     <h3>Jogo da Velha</h3>
-                    <div onClick={() => setJdv(!jdv)} className={styles.jogoDaVelha}></div>
+                    <div onClick={() => setJdv(!jdv)} className={styles.jogoDaVelha}>
+                        <div className={styles.mensagem}><p>Esse projeto consiste em um jogo da velha implementado em HTML,
+                            CSS e JavaScript. O arquivo "index.html" é a página principal do jogo, onde são definidos os elementos
+                            visuais e os eventos de clique dos quadrantes. O arquivo "codigo.js" contém o código JavaScript que controla a lógica do jogo.</p></div>
+                    </div>
 
                     {jdv && (
                         <div className={styles.aba}>
@@ -298,7 +357,11 @@ function Projetos() {
 
                 <div className={styles.projeto}>
                     <h3>Agência Bold</h3>
-                    <div onClick={() => setAb(!ab)} className={styles.agenciaBold}></div>
+                    <div onClick={() => setAb(!ab)} className={styles.agenciaBold}>
+                        <div className={styles.mensagem}><p>O projeto "Agência Bold" é uma página web para
+                            promover uma agência de marketing ou publicidade chamada "Bold". O projeto utiliza HTML,
+                            CSS e JavaScript para criar uma interface moderna e interativa.</p></div>
+                    </div>
                     {ab && (
                         <div className={styles.aba}>
 

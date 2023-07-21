@@ -16,6 +16,7 @@ function Sobre() {
   const back1 = "https://drive.google.com/file/d/1QK4RujkrgVg8Q5dirR3mLFGXq4E-b-Ev/view?usp=sharing"
   const back2 = "https://drive.google.com/file/d/1-ndPnqZkeI5DNtU0bjdhCldk_6DszZIx/view?usp=sharing"
   const back3 = "https://drive.google.com/file/d/1qzPx-UTmWKl6lgLiWg2d4CajtSVvPJFk/view?usp=sharing"
+  const back4 = "https://drive.google.com/file/d/1e8SwErcIW3cPdQE9iZjbDLq2vDod4Q8K/view?usp=sharing"
   const outros1 = "https://drive.google.com/file/d/1TP5NtUlAbPZHWyARD92bOkqru9tyy85z/view?usp=sharing"
   const outros2 = "https://drive.google.com/file/d/1vwwhiLIPKLqbnkFSJil_v-ERLF0Lt8zi/view?usp=sharing"
   return (
@@ -176,6 +177,14 @@ function Sobre() {
             <div className={styles.certificado}>
               <h3 className={styles.tituloCeriticado}>CURSO NODEJS</h3>
               <div className={styles.imageBack1}></div>
+            </div>
+
+          </a>
+
+          <a className={styles.linkCertificados} target='_blank' rel="noreferrer" href={back4}>
+            <div className={styles.certificado}>
+              <h3 className={styles.tituloCeriticado}>CURSO DE PYTHON</h3>
+              <div className={styles.imageBack4}></div>
             </div>
 
           </a>
