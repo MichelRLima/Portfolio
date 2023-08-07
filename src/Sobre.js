@@ -10,6 +10,7 @@ function Sobre() {
   }, []);
 
   //links dos certificados
+  const historico = "https://drive.google.com/file/d/1t0BrbywCTMnj1E0QXdzNW74OXYu2zRmF/view?usp=sharing"
   const front1 = "https://drive.google.com/file/d/1_ppEMxNPUoH1RZ5uanuEwCly4nDBfDg-/view?usp=sharing"
   const front2 = "https://drive.google.com/file/d/1VNJrATqbV7tW6HjNoygX941wNBl2AxAj/view?usp=sharing"
   const front3 = "https://drive.google.com/file/d/1j2WPJmNy3ElB4pBOvjKX2v9NzKLdrFT4/view?usp=sharing"
@@ -17,6 +18,7 @@ function Sobre() {
   const back2 = "https://drive.google.com/file/d/1-ndPnqZkeI5DNtU0bjdhCldk_6DszZIx/view?usp=sharing"
   const back3 = "https://drive.google.com/file/d/1qzPx-UTmWKl6lgLiWg2d4CajtSVvPJFk/view?usp=sharing"
   const back4 = "https://drive.google.com/file/d/1e8SwErcIW3cPdQE9iZjbDLq2vDod4Q8K/view?usp=sharing"
+  const back5 = "https://drive.google.com/file/d/1Rfw8yloKfGXOAfv51rRRT64SEdifAqa_/view?usp=sharing"
   const outros1 = "https://drive.google.com/file/d/1TP5NtUlAbPZHWyARD92bOkqru9tyy85z/view?usp=sharing"
   const outros2 = "https://drive.google.com/file/d/1vwwhiLIPKLqbnkFSJil_v-ERLF0Lt8zi/view?usp=sharing"
   return (
@@ -76,32 +78,36 @@ function Sobre() {
         <br />
         <br />
 
-        <p>Tenho experiência sólida no desenvolvimento front-end, com conhecimentos em HTML, CSS e JavaScript,
-          incluindo bibliotecas como jQuery. Essa base me permite criar interfaces de usuário atraentes e responsivas,
-          oferecendo uma ótima experiência aos usuários. Estou constantemente aprimorando minhas habilidades e
-          conhecimentos, buscando aprender novas tecnologias e frameworks para me manter atualizado com as tendências
-          do mercado. Recentemente, tenho me dedicado ao desenvolvimento de projetos com React, uma biblioteca JavaScript
-          de código aberto, que me permite criar interfaces de usuário interativas e reutilizáveis, além de consumir
-          APIs para buscar dados dinamicamente.</p>
+        <p>Eu sou um desenvolvedor de software com habilidades diversas e sólida experiência em várias tecnologias.
+          Ao longo dos meus estudos e certificações, adquiri conhecimentos abrangentes e aprofundados em diferentes
+          áreas do desenvolvimento de software, o que me permite enfrentar desafios com confiança e entregar soluções
+          inovadoras.
+        </p>
 
-        <p>Além disso, tenho trabalhado em projetos utilizando o Node.js, uma plataforma de desenvolvimento JavaScript do
-          lado do servidor. Com o Node.js, consigo criar aplicações web eficientes e escaláveis, aproveitando a mesma
-          linguagem tanto no front-end quanto no back-end. Tenho desenvolvido projetos com o uso do Socket.IO, uma
-          biblioteca que permite a comunicação em tempo real entre clientes e servidores. Essa tecnologia tem me
-          proporcionado a criação de aplicações interativas e dinâmicas, com recursos de chat em tempo real,
-          atualizações em tempo real e muito mais.</p>
+        <p>Minhas habilidades incluem:</p>
 
-        <p>Outra área em que tenho trabalhado é o gerenciamento de banco de dados, mais especificamente com o MongoDB e
-          MySQL. Com o MongoDB, um banco de dados NoSQL orientado a documentos, tenho explorado recursos como flexibilidade
-          na estrutura dos dados e escalabilidade horizontal. Essa combinação de Node.js e MongoDB tem me permitido criar
-          aplicações web completas, desde o back-end até o front-end, com facilidade e eficiência. Com MySQL, um
-          sistema de gerenciamento de banco de dados relacional amplamente utilizado em aplicações web.
-          Estou aprendendo sobre criação de tabelas, consultas SQL e integração de bancos de dados em meus projetos.</p>
+        <ul>
+          <li>Desenvolvimento de aplicações web com Python, Django e Node.js.</li>
+          <li>Conhecimento em bancos de dados, como MongoDB e MySQL, para modelagem, consulta e manipulação de dados.</li>
+          <li>Conhecimentos sólidos em React para o desenvolvimento de interfaces de usuário interativas.</li>
+          <li>Domínio em JavaScript, permitindo criar interações dinâmicas e responsivas nas minhas aplicações.</li>
+          <li>Experiência em programação orientada a objetos (POO), programação lógica e a utilização de PHP e C.</li>
+          <li>Criação de interfaces de usuário modernas e atraentes usando HTML5 e CSS3.</li>
+          <li>Competência em inteligência artificial, com algoritmos de aprendizado de máquina e processamento de linguagem natural.</li>
+          <li>Habilidades em lógica de programação para resolver problemas complexos de forma eficiente.</li>
+          <li>Compreensão da arquitetura de sistemas computacionais e habilidades em manutenção e reparo de computadores.</li>
+          <li>Gerenciamento e manipulação de informações em bancos de dados para projetos de sistemas web.</li>
+        </ul>
 
-        <p>Atualmente, estou estudando Python, uma linguagem de programação versátil e poderosa. Tenho interesse em
-          explorar suas diversas aplicações, desde o desenvolvimento web até a ciência de dados. Com Python, estou
-          ampliando minhas habilidades e conhecimentos, buscando entender sua sintaxe elegante e suas vastas bibliotecas
-          e frameworks, como Django.</p>
+
+        <p>Estou constantemente atualizando meu conhecimento para acompanhar as últimas tendências tecnológicas e
+          melhorar ainda mais minhas habilidades. Ao longo da minha carreira, tive a oportunidade de trabalhar
+          em projetos desafiadores, o que me permitiu aprimorar minha capacidade de trabalhar em equipe, resolver
+          problemas complexos e entregar resultados de alta qualidade.</p>
+
+        <p>Sou um profissional comprometido, apaixonado por tecnologia e inovação. Tenho facilidade em aprender
+          novas tecnologias e estou sempre em busca de novos desafios. Acredito que o aprendizado contínuo
+          é essencial para o crescimento profissional e pessoal.</p>
 
 
 
@@ -123,7 +129,7 @@ function Sobre() {
         <h3 className={styles.tituloCategoria}>Graduação</h3>
         <div className={styles.containerCertificados}>
 
-          <a className={styles.linkCertificados} target='_blank' rel="noreferrer" href="https://michelrocha-dev.netlify.app">
+          <a className={styles.linkCertificados} target='_blank' rel="noreferrer" href={historico}>
             <div className={styles.certificado}>
               <h3 className={styles.tituloCeriticado}>TECNÓLOGO EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS</h3>
               <BiTime size={32} color='#4e4e4e' />
@@ -185,6 +191,14 @@ function Sobre() {
             <div className={styles.certificado}>
               <h3 className={styles.tituloCeriticado}>CURSO DE PYTHON</h3>
               <div className={styles.imageBack4}></div>
+            </div>
+
+          </a>
+
+          <a className={styles.linkCertificados} target='_blank' rel="noreferrer" href={back5}>
+            <div className={styles.certificado}>
+              <h3 className={styles.tituloCeriticado}>CURSO BANCO DE DADOS</h3>
+              <div className={styles.imageBack5}></div>
             </div>
 
           </a>

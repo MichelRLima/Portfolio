@@ -240,6 +240,26 @@
     background-position: center center;
 }
 
+.imageBack4 {
+    margin: 40px auto;
+    width: 200px;
+    height: 100px;
+    background-image: url(certificados/back4.PNG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.imageBack5 {
+    margin: 40px auto;
+    width: 200px;
+    height: 100px;
+    background-image: url(certificados/back5.PNG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
 .imageOutros1 {
     margin: 40px auto;
     width: 200px;

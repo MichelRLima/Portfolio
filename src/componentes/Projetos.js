@@ -34,6 +34,8 @@ function Projetos() {
     const portalrep = 'https://github.com/MichelRLima/portal-de-noticia'
     const chatLink = 'http://ec2-52-14-95-83.us-east-2.compute.amazonaws.com:3001'
     const chatrep = 'https://github.com/MichelRLima/ChatSocket'
+    const hairtimeLink = 'http://ec2-52-14-95-83.us-east-2.compute.amazonaws.com:3002'
+    const hairtimerep = 'https://github.com/MichelRLima/Projeto-HairTime'
     const [jdv, setJdv] = useState(false);
     const [bc, setBc] = useState(false);
     const [ab, setAb] = useState(false);
@@ -45,6 +47,7 @@ function Projetos() {
     const [pok, setPok] = useState(false);
     const [por, setPor] = useState(false);
     const [chat, setChat] = useState(false);
+    const [hairtime, setHairtime] = useState(false);
 
 
     useEffect(() => {
@@ -64,6 +67,44 @@ function Projetos() {
             <div className={styles.containerProjetos}>
 
                 <div className={styles.projeto}>
+                    <h3>Projeto HairTime</h3>
+
+                    <div onClick={() => setHairtime(!hairtime)} className={styles.hairtime}>
+                        {/* Mensagem que será exibida quando o mouse estiver sobre a div */}
+                        <div className={styles.mensagem}> <p>O HairTime é meu primeiro projeto freelancer.
+                            Esse projeto é uma plataforma robusta e elegante, projetada para permitir que os
+                            clientes agendem seus serviços de corte de cabelo com facilidade e conveniência.
+                            Por meio do framework Express.js e do banco de dados MongoDB, criei uma aplicação
+                            que não apenas facilita o agendamento, mas também proporciona atualizações em tempo
+                            real sobre disponibilidade e permite a gestão eficiente de horários. Os principais
+                            recursos e funcionalidades são o agendamento simplificado para o cliente, através do
+                            link apropriado, atualizações em tempo real dos agendamentos para evitar conflitos de
+                            horários e um painel administrativo eficiente para fazer a alteração de horários disponíveis
+                            para agendamento</p>
+                            <p>Clique para ver mais</p></div>
+                    </div>
+                    {hairtime && (
+                        <div className={styles.aba}>
+
+                            <div onClick={() => setHairtime(!hairtime)} className={styles.close}><AiOutlineCloseCircle size={30} /></div>
+                            <div className={styles.containerDescricao}>
+                                <h3>Projeto HairTime</h3>
+                                <p><AiFillHtml5 title='HTML5' size={32} color="#f59519" /> | <IoLogoJavascript title="JavaScript" size={32} color="#F7DF1E" /> | <SiMongodb title="MongoDB" size={32} color="#47A248  " /> | <FaNodeJs title="Node.js" size={32} color="#339933 " /> | <FaAws title="AWS" size={32} color=" #FF9900  " /></p>
+
+
+                                <button><Button target="_blank" href={hairtimeLink} variant="success">Site</Button></button>
+                                <button><Button target="_blank" href={hairtimerep} variant="secondary">Repositório</Button></button>
+
+                            </div>
+
+                        </div>
+                    )}
+
+                </div>
+
+                <br />
+
+                <div className={styles.projeto}>
                     <h3>Portal de Notícias</h3>
 
                     <div onClick={() => setPor(!por)} className={styles.portal}>
@@ -75,7 +116,8 @@ function Projetos() {
                             Express, o Mongoose (para lidar com o MongoDB), o Body Parser (para analisar os corpos
                             das requisições HTTP), e o Fileupload (para lidar com uploads de arquivos). Além disso,
                             é configurado um sistema de sessão para autenticação e é feita a conexão com o banco de dados
-                            MongoDB hospedado no serviço MongoDB Atlas.</p></div>
+                            MongoDB hospedado no serviço MongoDB Atlas.</p>
+                            <p>Clique para ver mais</p></div>
                     </div>
                     {por && (
                         <div className={styles.aba}>
@@ -107,7 +149,8 @@ function Projetos() {
                             notificações de novas mensagens. O arquivo index.js é o arquivo principal do servidor.
                             Nele, são criados um servidor HTTP utilizando o módulo http e um servidor WebSocket
                             utilizando o módulo socket.io. Os usuários conectados são armazenados em duas arrays,
-                            usuarios e socketIds, para rastrear os nomes dos usuários e seus respectivos IDs de socket.</p></div>
+                            usuarios e socketIds, para rastrear os nomes dos usuários e seus respectivos IDs de socket.</p>
+                            <p>Clique para ver mais</p></div>
                     </div>
                     {chat && (
                         <div className={styles.aba}>
@@ -135,7 +178,8 @@ function Projetos() {
                         <div className={styles.mensagem}><p>O projeto Coin to Real permite
                             aos usuários converter valores de moedas estrangeiras para a moeda
                             brasileira (BRL - Real). A aplicação utiliza a biblioteca React para
-                            construir a interface do usuário (UI) de forma interativa e responsiva.</p></div>
+                            construir a interface do usuário (UI) de forma interativa e responsiva.</p>
+                            <p>Clique para ver mais</p></div>
                     </div>
                     {coin && (
                         <div className={styles.aba}>
@@ -164,7 +208,8 @@ function Projetos() {
                             permite aos usuários buscar informações sobre diferentes Pokémon
                             usando a API PokeAPI (https://pokeapi.co/). A interface é construída
                             usando a biblioteca React, proporcionando uma experiência de usuário
-                            interativa e amigável.</p></div>
+                            interativa e amigável.</p>
+                            <p>Clique para ver mais</p></div>
                     </div>
                     {pok && (
                         <div className={styles.aba}>
@@ -191,7 +236,8 @@ function Projetos() {
                     <div onClick={() => setGif(!gif)} className={styles.gif}>
                         <div className={styles.mensagem}><p>Esse projeto é uma aplicação web que
                             permite aos usuários buscar e compartilhar GIFs usando a API do Giphy.
-                            Com ele é possivel buscar os GIFs e compartilhar no WhatsApp.</p></div>
+                            Com ele é possivel buscar os GIFs e compartilhar no WhatsApp.</p>
+                            <p>Clique para ver mais</p></div>
                     </div>
                     {gif && (
                         <div className={styles.aba}>
@@ -224,7 +270,8 @@ function Projetos() {
                             Em seguida, o aplicativo utiliza um componente chamado "WhatsappLink" para criar um
                             link que pode ser usado para abrir o WhatsApp com uma mensagem contendo o pedido.
                             Dessa forma, o usuário pode revisar o pedido e enviar o pedido para o número de WhatsApp
-                            do estabelecimento.</p></div>
+                            do estabelecimento.</p>
+                            <p>Clique para ver mais</p></div>
                     </div>
                     {rt && (
                         <div className={styles.aba}>
@@ -252,7 +299,8 @@ function Projetos() {
                         <div className={styles.mensagem}><p>Esse projeto é uma calculadora simples
                             desenvolvida como um aplicativo web usando a biblioteca React.
                             A calculadora permite ao usuário realizar operações matemáticas básicas,
-                            como adição, subtração, multiplicação e divisão.</p></div>
+                            como adição, subtração, multiplicação e divisão.</p>
+                            <p>Clique para ver mais</p></div>
                     </div>
                     {calc && (
                         <div className={styles.aba}>
@@ -279,7 +327,8 @@ function Projetos() {
                     <div onClick={() => setBc(!bc)} className={styles.buscarCep}>
                         <div className={styles.mensagem}><p>Esse projeto é uma aplicação web para
                             buscar informações de um endereço a partir de um CEP fornecido pelo usuário.
-                            O projeto foi desenvolvido utilizando a biblioteca React e a ferramenta de estilo Bootstrap.</p></div>
+                            O projeto foi desenvolvido utilizando a biblioteca React e a ferramenta de estilo Bootstrap.</p>
+                            <p>Clique para ver mais</p></div>
                     </div>
                     {bc && (
                         <div className={styles.aba}>
@@ -304,7 +353,8 @@ function Projetos() {
                     <h3>Todo List</h3>
                     <div onClick={() => setTd(!td)} className={styles.todoList}>
                         <div className={styles.mensagem}><p>Todo List é uma aplicação de lista de tarefas desenvolvida em React. Nessa aplicação,
-                            os usuários podem adicionar tarefas, marcar tarefas como concluídas e remover tarefas da lista.</p></div>
+                            os usuários podem adicionar tarefas, marcar tarefas como concluídas e remover tarefas da lista.</p>
+                            <p>Clique para ver mais</p></div>
                     </div>
 
                     {td && (
@@ -332,7 +382,8 @@ function Projetos() {
                     <div onClick={() => setJdv(!jdv)} className={styles.jogoDaVelha}>
                         <div className={styles.mensagem}><p>Esse projeto consiste em um jogo da velha implementado em HTML,
                             CSS e JavaScript. O arquivo "index.html" é a página principal do jogo, onde são definidos os elementos
-                            visuais e os eventos de clique dos quadrantes. O arquivo "codigo.js" contém o código JavaScript que controla a lógica do jogo.</p></div>
+                            visuais e os eventos de clique dos quadrantes. O arquivo "codigo.js" contém o código JavaScript que controla a lógica do jogo.</p>
+                            <p>Clique para ver mais</p></div>
                     </div>
 
                     {jdv && (
@@ -360,7 +411,8 @@ function Projetos() {
                     <div onClick={() => setAb(!ab)} className={styles.agenciaBold}>
                         <div className={styles.mensagem}><p>O projeto "Agência Bold" é uma página web para
                             promover uma agência de marketing ou publicidade chamada "Bold". O projeto utiliza HTML,
-                            CSS e JavaScript para criar uma interface moderna e interativa.</p></div>
+                            CSS e JavaScript para criar uma interface moderna e interativa.</p>
+                            <p>Clique para ver mais</p></div>
                     </div>
                     {ab && (
                         <div className={styles.aba}>
