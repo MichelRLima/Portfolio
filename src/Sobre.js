@@ -14,13 +14,16 @@ function Sobre() {
   const front1 = "https://drive.google.com/file/d/1_ppEMxNPUoH1RZ5uanuEwCly4nDBfDg-/view?usp=sharing"
   const front2 = "https://drive.google.com/file/d/1VNJrATqbV7tW6HjNoygX941wNBl2AxAj/view?usp=sharing"
   const front3 = "https://drive.google.com/file/d/1j2WPJmNy3ElB4pBOvjKX2v9NzKLdrFT4/view?usp=sharing"
+  const front4 = "https://drive.google.com/file/d/1lXTP-22R6su8jGAgrXZHhKkOO9ZSNszB/view?usp=sharing"
   const back1 = "https://drive.google.com/file/d/1QK4RujkrgVg8Q5dirR3mLFGXq4E-b-Ev/view?usp=sharing"
   const back2 = "https://drive.google.com/file/d/1-ndPnqZkeI5DNtU0bjdhCldk_6DszZIx/view?usp=sharing"
   const back3 = "https://drive.google.com/file/d/1qzPx-UTmWKl6lgLiWg2d4CajtSVvPJFk/view?usp=sharing"
   const back4 = "https://drive.google.com/file/d/1e8SwErcIW3cPdQE9iZjbDLq2vDod4Q8K/view?usp=sharing"
   const back5 = "https://drive.google.com/file/d/1Rfw8yloKfGXOAfv51rRRT64SEdifAqa_/view?usp=sharing"
+  const back6 = "https://drive.google.com/file/d/1ouUzeSYmmr5ujU2ktodR-gGnGcLKftPX/view?usp=sharing"
   const outros1 = "https://drive.google.com/file/d/1TP5NtUlAbPZHWyARD92bOkqru9tyy85z/view?usp=sharing"
   const outros2 = "https://drive.google.com/file/d/1vwwhiLIPKLqbnkFSJil_v-ERLF0Lt8zi/view?usp=sharing"
+  const outros3 = "https://drive.google.com/file/d/10sWwy9nYoQwJu3BuoU88xd3w39d02Pkw/view?usp=sharing"
   return (
     <>
       <div className={styles.Perfil}>
@@ -97,6 +100,9 @@ function Sobre() {
           <li>Habilidades em lógica de programação para resolver problemas complexos de forma eficiente.</li>
           <li>Compreensão da arquitetura de sistemas computacionais e habilidades em manutenção e reparo de computadores.</li>
           <li>Gerenciamento e manipulação de informações em bancos de dados para projetos de sistemas web.</li>
+          <li>Gerenciamento e manipulação de informações em bancos de dados para projetos de sistemas web.</li>
+          <li>Competências em controle de versão com Git</li>
+          <li>Experiência em seguir roadmaps e planejar estratégias de aprendizado e desenvolvimento.</li>
         </ul>
 
 
@@ -132,8 +138,9 @@ function Sobre() {
           <a className={styles.linkCertificados} target='_blank' rel="noreferrer" href={historico}>
             <div className={styles.certificado}>
               <h3 className={styles.tituloCeriticado}>TECNÓLOGO EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS</h3>
-              <BiTime size={32} color='#4e4e4e' />
-              <div className={styles.imageGraduacao}><p>Cursando...</p></div>
+              <BiTime size={25} color='#4e4e4e' />
+
+
             </div>
 
           </a>
@@ -170,6 +177,14 @@ function Sobre() {
             </div>
 
           </a>
+
+          <a className={styles.linkCertificados} target='_blank' rel="noreferrer" href={front4}>
+            <div className={styles.certificado}>
+              <h3 className={styles.tituloCeriticado}>Introdução a Criação de Websites com HTML5 e CSS3</h3>
+              <div className={styles.imageFront4}></div>
+            </div>
+
+          </a>
         </div>
 
         <br />
@@ -178,6 +193,16 @@ function Sobre() {
 
         <h3 className={styles.tituloCategoria}>Back-end</h3>
         <div className={styles.containerCertificados}>
+
+          <a className={styles.linkCertificados} target='_blank' rel="noreferrer" href={back6}>
+            <div className={styles.certificado}>
+              <h3 className={styles.tituloCeriticado}>Versionamento de Código com Git
+                e GitHub
+              </h3>
+              <div className={styles.imageBack6}></div>
+            </div>
+
+          </a>
 
           <a className={styles.linkCertificados} target='_blank' rel="noreferrer" href={back1}>
             <div className={styles.certificado}>
@@ -211,13 +236,7 @@ function Sobre() {
 
           </a>
 
-          <a className={styles.linkCertificados} target='_blank' rel="noreferrer" href={back3}>
-            <div className={styles.certificado}>
-              <h3 className={styles.tituloCeriticado}>PROGRAMMING BASICS</h3>
-              <div className={styles.imageBack3}></div>
-            </div>
 
-          </a>
 
         </div>
         <br />
@@ -226,6 +245,15 @@ function Sobre() {
 
         <h3 className={styles.tituloCategoria}>Outros certificados</h3>
         <div className={styles.containerCertificados}>
+
+          <a className={styles.linkCertificados} target='_blank' rel="noreferrer" href={outros3}>
+            <div className={styles.certificado}>
+              <h3 className={styles.tituloCeriticado}>
+                ROADMAPS DIO E O NOTION</h3>
+              <div className={styles.imageOutros3}></div>
+            </div>
+
+          </a>
 
           <a className={styles.linkCertificados} target='_blank' rel="noreferrer" href={outros1}>
             <div className={styles.certificado}>
@@ -239,6 +267,14 @@ function Sobre() {
             <div className={styles.certificado}>
               <h3 className={styles.tituloCeriticado}>CERTIFIQUE-SE EM INTELIGENCIA ARTIFICAL</h3>
               <div className={styles.imageOutros2}></div>
+            </div>
+
+          </a>
+
+          <a className={styles.linkCertificados} target='_blank' rel="noreferrer" href={back3}>
+            <div className={styles.certificado}>
+              <h3 className={styles.tituloCeriticado}>PROGRAMMING BASICS</h3>
+              <div className={styles.imageOutros4}></div>
             </div>
 
           </a>

@@ -9,7 +9,7 @@ import { AiFillHtml5 } from 'react-icons/ai';
 import { IoLogoCss3, IoLogoJavascript } from 'react-icons/io5';
 import { DiJqueryLogo, DiReact, DiPython } from 'react-icons/di';
 import { SiCsharp, SiAxios, SiMongodb, SiSocketdotio } from 'react-icons/si';
-import { FaBars, FaNodeJs, FaAws } from 'react-icons/fa'
+import { FaBars, FaNodeJs, FaAws, FaGitAlt } from 'react-icons/fa'
 import { BsBootstrapFill } from 'react-icons/bs'
 
 import { useState } from "react";
@@ -75,6 +75,7 @@ function App() {
               <DiPython title="Python" size={32} color="#3776ab" />
               <FaNodeJs title="Node.js" size={32} color="#339933 " />
               <SiMongodb title="MongoDB" size={32} color="#47A248  " />
+              <FaGitAlt title="Git" size={32} color="#f34c28" />
               <FaAws title="AWS" size={32} color="#EFEFEF  " />
               <SiSocketdotio title="SocketIO" size={30} color="#010101" />
               <SiAxios title="Axios" size={32} color="#007ACC" />

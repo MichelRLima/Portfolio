@@ -65,7 +65,7 @@
 
 .containerTitulo {
     width: 100%;
-    height: 60px;
+    height: auto;
 
 }
 
@@ -74,7 +74,7 @@
 .titulo {
     text-align: center;
     color: rgb(29, 36, 88);
-    margin: 0 auto 40px;
+    margin: 0 auto 20px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 40px;
@@ -124,18 +124,19 @@
 }
 
 .certificado {
-    width: 300px;
-    height: 300px;
+    width: 150px;
+    height: 150px;
     border: 2px solid rgb(29, 36, 88);
     margin: 20px 10px;
     border-radius: 10px;
+    text-transform: uppercase;
 
 
 }
 
 .certificado svg {
-    margin-left: 47%;
-    margin-top: 30px;
+    margin-left: 42%;
+    margin-top: 10px;
 }
 
 .certificado:hover {
@@ -153,27 +154,22 @@
     font-family: 'Open Sans', sans-serif;
     text-align: center;
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 10px;
 
 }
 
 .imageGraduacao {
-    margin: 60px auto;
-    width: 200px;
-    height: 100px;
+    margin: 30px auto;
+    width: 25px;
+    height: 17px;
 
 }
 
-.imageGraduacao p {
-    margin-top: -50px;
-    text-align: center;
-    color: #4e4e4e;
-}
 
 .imageFront1 {
-    margin: 40px auto;
-    width: 200px;
-    height: 100px;
+    margin: 20px auto;
+    width: 100px;
+    height: 50px;
     background-image: url(certificados/front1.PNG);
     background-size: contain;
     background-repeat: no-repeat;
@@ -181,9 +177,9 @@
 }
 
 .imageFront2 {
-    margin: 40px auto;
-    width: 200px;
-    height: 100px;
+    margin: 20px auto;
+    width: 100px;
+    height: 50px;
     background-image: url(certificados/front2.PNG);
     background-size: contain;
     background-repeat: no-repeat;
@@ -191,19 +187,29 @@
 }
 
 .imageFront3 {
-    margin: 40px auto;
-    width: 200px;
-    height: 100px;
+    margin: 30px auto;
+    width: 100px;
+    height: 50px;
     background-image: url(certificados/front3.PNG);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
+.imageFront4 {
+    margin: 20px auto;
+    width: 100px;
+    height: 50px;
+    background-image: url(certificados/front4.PNG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
 .imageBack1 {
-    margin: 40px auto;
-    width: 200px;
-    height: 100px;
+    margin: 25px auto;
+    width: 100px;
+    height: 50px;
     background-image: url(certificados/back1.PNG);
     background-size: contain;
     background-repeat: no-repeat;
@@ -211,39 +217,20 @@
 }
 
 .imageBack2 {
-    margin: 40px auto;
-    width: 200px;
-    height: 100px;
+    margin: 25px auto;
+    width: 100px;
+    height: 50px;
     background-image: url(certificados/back2.PNG);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
-.imageBack3 {
-    margin: 40px auto;
-    width: 200px;
-    height: 100px;
-    background-image: url(certificados/back3.PNG);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
 
 .imageBack4 {
-    margin: 40px auto;
-    width: 200px;
-    height: 100px;
-    background-image: url(certificados/back4.PNG);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-.imageBack4 {
-    margin: 40px auto;
-    width: 200px;
-    height: 100px;
+    margin: 25px auto;
+    width: 100px;
+    height: 50px;
     background-image: url(certificados/back4.PNG);
     background-size: contain;
     background-repeat: no-repeat;
@@ -251,19 +238,29 @@
 }
 
 .imageBack5 {
-    margin: 40px auto;
-    width: 200px;
-    height: 100px;
+    margin: 25px auto;
+    width: 100px;
+    height: 50px;
     background-image: url(certificados/back5.PNG);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
+.imageBack6 {
+    margin: 15px auto;
+    width: 100px;
+    height: 50px;
+    background-image: url(certificados/back6.PNG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
 .imageOutros1 {
-    margin: 40px auto;
-    width: 200px;
-    height: 100px;
+    margin: 25px auto;
+    width: 100px;
+    height: 50px;
     background-image: url(certificados/outros1.PNG);
     background-size: contain;
     background-repeat: no-repeat;
@@ -271,10 +268,31 @@
 }
 
 .imageOutros2 {
-    margin: 40px auto;
-    width: 200px;
-    height: 100px;
+    margin: 25px auto;
+    width: 100px;
+    height: 50px;
     background-image: url(certificados/outros2.PNG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.imageOutros3 {
+    margin: 35px auto;
+    width: 100px;
+    height: 50px;
+    background-image: url(certificados/outros3.JPG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+.imageOutros4 {
+    margin: 25px auto;
+    width: 100px;
+    height: 50px;
+    background-image: url(certificados/outros4.PNG);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;

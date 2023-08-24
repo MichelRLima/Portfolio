@@ -258,7 +258,6 @@
 /* Estilos para a mensagem */
 .mensagem {
 
-
     /* Centraliza exatamente no meio */
     background-color: #bd4520;
     color: white;
@@ -274,6 +273,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    position: relative;
 }
 
 .mensagem p {
@@ -296,6 +296,10 @@
     text-align: center;
     background-color: #bd4520;
     margin: 0 auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 
@@ -383,9 +387,8 @@
 
 @media screen and (max-width: 768px) {
 
-    .mensagem p {
-        width: 100%;
-        height: 100%;
+    .mensagem {
+        display: none;
     }
 
     .projeto {

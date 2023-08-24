@@ -80,12 +80,10 @@ function Projetos() {
                             recursos e funcionalidades são o agendamento simplificado para o cliente, através do
                             link apropriado, atualizações em tempo real dos agendamentos para evitar conflitos de
                             horários e um painel administrativo eficiente para fazer a alteração de horários disponíveis
-                            para agendamento. Clique para ver mais.
-
-
-
-
+                            para agendamento.
                         </p>
+
+                            <p className={styles.clique}>Clique para ver mais.</p>
                         </div>
                     </div>
                     {hairtime && (
@@ -121,7 +119,9 @@ function Projetos() {
                             Express, o Mongoose (para lidar com o MongoDB), o Body Parser (para analisar os corpos
                             das requisições HTTP), e o Fileupload (para lidar com uploads de arquivos). Além disso,
                             é configurado um sistema de sessão para autenticação e é feita a conexão com o banco de dados
-                            MongoDB hospedado no serviço MongoDB Atlas. Clique para ver mais.</p>
+                            MongoDB hospedado no serviço MongoDB Atlas.</p>
+
+                            <p className={styles.clique}>Clique para ver mais.</p>
                         </div>
                     </div>
                     {por && (
@@ -154,7 +154,8 @@ function Projetos() {
                             notificações de novas mensagens. O arquivo index.js é o arquivo principal do servidor.
                             Nele, são criados um servidor HTTP utilizando o módulo http e um servidor WebSocket
                             utilizando o módulo socket.io. Os usuários conectados são armazenados em duas arrays,
-                            usuarios e socketIds, para rastrear os nomes dos usuários e seus respectivos IDs de socket. Clique para ver mais.</p>
+                            usuarios e socketIds, para rastrear os nomes dos usuários e seus respectivos IDs de socket.</p>
+                            <p className={styles.clique}>Clique para ver mais.</p>
                         </div>
                     </div>
                     {chat && (
@@ -183,7 +184,8 @@ function Projetos() {
                         <div className={styles.mensagem}><p>O projeto Coin to Real permite
                             aos usuários converter valores de moedas estrangeiras para a moeda
                             brasileira (BRL - Real). A aplicação utiliza a biblioteca React para
-                            construir a interface do usuário (UI) de forma interativa e responsiva. Clique para ver mais.</p>
+                            construir a interface do usuário (UI) de forma interativa e responsiva.</p>
+                            <p className={styles.clique}>Clique para ver mais.</p>
                         </div>
                     </div>
                     {coin && (
@@ -213,7 +215,8 @@ function Projetos() {
                             permite aos usuários buscar informações sobre diferentes Pokémon
                             usando a API PokeAPI (https://pokeapi.co/). A interface é construída
                             usando a biblioteca React, proporcionando uma experiência de usuário
-                            interativa e amigável. Clique para ver mais.</p>
+                            interativa e amigável.</p>
+                            <p className={styles.clique}>Clique para ver mais.</p>
                         </div>
                     </div>
                     {pok && (
@@ -241,7 +244,8 @@ function Projetos() {
                     <div onClick={() => setGif(!gif)} className={styles.gif}>
                         <div className={styles.mensagem}><p>Esse projeto é uma aplicação web que
                             permite aos usuários buscar e compartilhar GIFs usando a API do Giphy.
-                            Com ele é possivel buscar os GIFs e compartilhar no WhatsApp. Clique para ver mais.</p>
+                            Com ele é possivel buscar os GIFs e compartilhar no WhatsApp.</p>
+                            <p className={styles.clique}>Clique para ver mais.</p>
                         </div>
                     </div>
                     {gif && (
@@ -275,7 +279,8 @@ function Projetos() {
                             Em seguida, o aplicativo utiliza um componente chamado "WhatsappLink" para criar um
                             link que pode ser usado para abrir o WhatsApp com uma mensagem contendo o pedido.
                             Dessa forma, o usuário pode revisar o pedido e enviar o pedido para o número de WhatsApp
-                            do estabelecimento. Clique para ver mais.</p>
+                            do estabelecimento.</p>
+                            <p className={styles.clique}>Clique para ver mais.</p>
                         </div>
                     </div>
                     {rt && (
@@ -304,7 +309,8 @@ function Projetos() {
                         <div className={styles.mensagem}><p>Esse projeto é uma calculadora simples
                             desenvolvida como um aplicativo web usando a biblioteca React.
                             A calculadora permite ao usuário realizar operações matemáticas básicas,
-                            como adição, subtração, multiplicação e divisão. Clique para ver mais.</p>
+                            como adição, subtração, multiplicação e divisão.</p>
+                            <p className={styles.clique}>Clique para ver mais.</p>
                         </div>
                     </div>
                     {calc && (
@@ -332,7 +338,8 @@ function Projetos() {
                     <div onClick={() => setBc(!bc)} className={styles.buscarCep}>
                         <div className={styles.mensagem}><p>Esse projeto é uma aplicação web para
                             buscar informações de um endereço a partir de um CEP fornecido pelo usuário.
-                            O projeto foi desenvolvido utilizando a biblioteca React e a ferramenta de estilo Bootstrap. Clique para ver mais.</p>
+                            O projeto foi desenvolvido utilizando a biblioteca React e a ferramenta de estilo Bootstrap.</p>
+                            <p className={styles.clique}>Clique para ver mais.</p>
                         </div>
                     </div>
                     {bc && (
@@ -358,7 +365,8 @@ function Projetos() {
                     <h3>Todo List</h3>
                     <div onClick={() => setTd(!td)} className={styles.todoList}>
                         <div className={styles.mensagem}><p>Todo List é uma aplicação de lista de tarefas desenvolvida em React. Nessa aplicação,
-                            os usuários podem adicionar tarefas, marcar tarefas como concluídas e remover tarefas da lista. Clique para ver mais.</p>
+                            os usuários podem adicionar tarefas, marcar tarefas como concluídas e remover tarefas da lista. </p>
+                            <p className={styles.clique}>Clique para ver mais.</p>
                         </div>
                     </div>
 
@@ -387,7 +395,8 @@ function Projetos() {
                     <div onClick={() => setJdv(!jdv)} className={styles.jogoDaVelha}>
                         <div className={styles.mensagem}><p>Esse projeto consiste em um jogo da velha implementado em HTML,
                             CSS e JavaScript. O arquivo "index.html" é a página principal do jogo, onde são definidos os elementos
-                            visuais e os eventos de clique dos quadrantes. O arquivo "codigo.js" contém o código JavaScript que controla a lógica do jogo. Clique para ver mais.</p>
+                            visuais e os eventos de clique dos quadrantes. O arquivo "codigo.js" contém o código JavaScript que controla a lógica do jogo.</p>
+                            <p className={styles.clique}>Clique para ver mais.</p>
                         </div>
                     </div>
 
@@ -416,7 +425,8 @@ function Projetos() {
                     <div onClick={() => setAb(!ab)} className={styles.agenciaBold}>
                         <div className={styles.mensagem}><p>O projeto "Agência Bold" é uma página web para
                             promover uma agência de marketing ou publicidade chamada "Bold". O projeto utiliza HTML,
-                            CSS e JavaScript para criar uma interface moderna e interativa. Clique para ver mais.</p>
+                            CSS e JavaScript para criar uma interface moderna e interativa.</p>
+                            <p className={styles.clique}>Clique para ver mais.</p>
                         </div>
                     </div>
                     {ab && (
