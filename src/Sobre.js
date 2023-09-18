@@ -1,7 +1,6 @@
 import styles from './sobre.module.css'
 import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
 import { BiTime } from 'react-icons/bi';
-import Certificado from './componentes/certificado';
 
 import { useEffect } from 'react';
 function Sobre() {
@@ -45,7 +44,6 @@ function Sobre() {
           <h1 className={styles.titulo}>Quem sou eu</h1>
         </div>
 
-        <Certificado nomeCertificado="teste"></Certificado>
 
 
         <br />
@@ -61,7 +59,7 @@ function Sobre() {
 
 
         <p>
-          Sobre minha personalidade, eu me considero uma uma pessoa tranquila e confiável, que sabe agir bem sob pressão e que acredita
+          Sobre minha personalidade, eu me considero uma pessoa tranquila e confiável, que sabe agir bem sob pressão e que acredita
           que nada é impossível quando se tem dedicação, esforço e alguns recursos para alcançar
           seus objetivos. Sou facilmente adaptável e sempre disposto a aprender coisas novas.Meu
           objetivo é me tornar um desenvolvedor full-stack e continuar a evoluir na área. Estou
@@ -102,7 +100,6 @@ function Sobre() {
           <li>Competência em inteligência artificial, com algoritmos de aprendizado de máquina e processamento de linguagem natural.</li>
           <li>Habilidades em lógica de programação para resolver problemas complexos de forma eficiente.</li>
           <li>Compreensão da arquitetura de sistemas computacionais e habilidades em manutenção e reparo de computadores.</li>
-          <li>Gerenciamento e manipulação de informações em bancos de dados para projetos de sistemas web.</li>
           <li>Gerenciamento e manipulação de informações em bancos de dados para projetos de sistemas web.</li>
           <li>Competências em controle de versão com Git</li>
           <li>Experiência em seguir roadmaps e planejar estratégias de aprendizado e desenvolvimento.</li>
