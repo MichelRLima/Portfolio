@@ -11,7 +11,7 @@
     height: 200px;
     border-radius: 50%;
     /* faz com que o elemento tenha um formato de círculo */
-    background-image: url('perfil.jpg');
+    background-image: url('./images/perfil.jpg');
     background-size: cover;
     /* faz com que a imagem se ajuste ao tamanho do elemento */
     background-position: center;

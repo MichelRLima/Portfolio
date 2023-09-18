@@ -1,6 +1,7 @@
 import styles from './sobre.module.css'
 import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
 import { BiTime } from 'react-icons/bi';
+import Certificado from './componentes/certificado';
 
 import { useEffect } from 'react';
 function Sobre() {
@@ -43,6 +44,8 @@ function Sobre() {
         <div className={styles.containerTitulo}>
           <h1 className={styles.titulo}>Quem sou eu</h1>
         </div>
+
+        <Certificado nomeCertificado="teste"></Certificado>
 
 
         <br />

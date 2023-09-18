@@ -1,10 +1,10 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css';
 import Sobre from "./Sobre";
-import Projetos from "./componentes/Projetos";
-
+import Projetos from "./pages/Projetos";
+import Contato from "./pages/Contato";
 import { Link } from "react-router-dom";
-import Contato from "./componentes/Contato";
+
 import { AiFillHtml5 } from 'react-icons/ai';
 import { IoLogoCss3, IoLogoJavascript } from 'react-icons/io5';
 import { DiJqueryLogo, DiReact, DiPython } from 'react-icons/di';
@@ -31,8 +31,8 @@ function App() {
 
           <div className="container-button">
             <Link to="/">Sobre</ Link>
-            <Link to="componentes/projetos">Projetos</ Link>
-            <Link to="componentes/contato">Contato</ Link>
+            <Link to="pages/projetos">Projetos</ Link>
+            <Link to="pages/contato">Contato</ Link>
           </div>
 
           <div className="containerMobile">
@@ -42,9 +42,9 @@ function App() {
 
           <div className="menuMobile" style={{ display: showDiv ? 'block' : 'none' }}>
             <Link onClick={() => setShowDiv(!showDiv)} to="/">Sobre</ Link>
-            <Link onClick={() => setShowDiv(!showDiv)} to="componentes/projetos">Projetos</ Link>
+            <Link onClick={() => setShowDiv(!showDiv)} to="pages/projetos">Projetos</ Link>
 
-            <Link onClick={() => setShowDiv(!showDiv)} to="componentes/contato">Contato</ Link>
+            <Link onClick={() => setShowDiv(!showDiv)} to="pages/contato">Contato</ Link>
           </div>
 
         </div>
@@ -55,9 +55,9 @@ function App() {
         <Routes>
 
           <Route path="/" exact element={<Sobre />} />
-          <Route exact path="componentes/projetos" element={<Projetos />} />
+          <Route exact path="pages/projetos" element={<Projetos />} />
 
-          <Route exact path="componentes/contato" element={<Contato />} />
+          <Route exact path="pages/contato" element={<Contato />} />
 
 
         </Routes>
